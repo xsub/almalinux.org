@@ -8,17 +8,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-16 21:25+0000\n"
-"PO-Revision-Date: 2022-01-05 21:52+0000\n"
-"Last-Translator: Bashir Hassan <bshbsh187@gmail.com>\n"
-"Language-Team: Arabic <https://hosted.weblate.org/projects/almalinux/website-"
-"backend/ar/>\n"
+"PO-Revision-Date: 2022-04-25 02:48+0000\n"
+"Last-Translator: Hocine Abdellatif Houari <hahouari@proton.me>\n"
+"Language-Team: Arabic <https://hosted.weblate.org/projects/almalinux/"
+"website-backend/ar/>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 4.10.1\n"
+"X-Generator: Weblate 4.12.1-dev\n"
 
 #: commons/templatetags/motd.py:39
 msgid "Read more"
@@ -124,7 +124,7 @@ msgstr "شعار نظام الما لينكس"
 
 #: www/templates/_partial/navbar.html:19
 msgid "Toggle navigation"
-msgstr ""
+msgstr "تبديل طريقة التصفح"
 
 #: www/templates/_partial/navbar.html:26
 msgid "Blog"
@@ -238,6 +238,8 @@ msgid ""
 "ELevate enables migration between major versions of RHEL(r) derivatives. "
 "Easily go from CentOS 7.x to any 8.x of your choice"
 msgstr ""
+"إلفايت تسمح بالترقية بين النسخ الرئيسية للتوزيعات المستنبطة من RHEL(r)، "
+"ويمكن مثلا ترقية نظام CentOS بسهولة من نسخة 7 إلى 8"
 
 #: www/templates/elevate/index.html:23
 msgid "ELevate Your Distribution"
@@ -248,6 +250,8 @@ msgid ""
 "ELevate enables migration between major versions of RHEL&reg; derivatives. "
 "Easily go from CentOS 7.x to any 8.x of your choice"
 msgstr ""
+"إلفايت تسمح بالترقية بين النسخ الرئيسية للتوزيعات المستنبطة من RHEL&reg;. "
+"ويمكن مثلا ترقية نظام CentOS بسهولة من نسخة 7 إلى 8"
 
 #: www/templates/elevate/index.html:37
 msgid "Get Started"
