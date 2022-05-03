@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-16 21:25+0000\n"
-"PO-Revision-Date: 2022-04-23 04:10+0000\n"
+"PO-Revision-Date: 2022-05-03 10:14+0000\n"
 "Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/almalinux/"
 "website-backend/es/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.12.1-dev\n"
+"X-Generator: Weblate 4.12.1\n"
 
 #: commons/templatetags/motd.py:39
 msgid "Read more"
@@ -76,7 +76,7 @@ msgstr "ELevate"
 
 #: www/templates/_partial/footer.html:20 www/templates/_partial/navbar.html:67
 msgid "Mailing Lists"
-msgstr "Listas de Correo"
+msgstr "Listas de correo"
 
 #: www/templates/_partial/footer.html:24
 msgid "Community"
@@ -84,7 +84,7 @@ msgstr "Comunidad"
 
 #: www/templates/_partial/footer.html:26
 msgid "Chat"
-msgstr "Chat"
+msgstr "Charla"
 
 #: www/templates/_partial/footer.html:27
 msgid "Forums"
@@ -277,10 +277,10 @@ msgid ""
 "based distributions from 7.x to 8.x. Preserve your applications, your data, "
 "and your sanity. Run the most recent version of the OS and software you need."
 msgstr ""
-"No era posible -- hasta ahora. Migra fácilmente entre versiones 7.x a 8.x de "
-"distribuciones basadas en RHEL. Conserva tus aplicaciones, tu información, y "
-"tu salud mental. Corre la versión más reciente del SO y el software que "
-"necesitas."
+"No era posible… hasta ahora. Migre fácilmente entre versiones 7.x a 8.x de "
+"distribuciones basadas en RHEL. Conserve sus aplicaciones, su información y "
+"su salud mental. Ejecute la versión más reciente del SO y los programas que "
+"necesita."
 
 #: www/templates/elevate/index.html:77
 msgid "Package Evolution Service"
@@ -347,10 +347,11 @@ msgid ""
 "%(github_link)s</a> and you can add/edit/interact with package metadata at "
 "<a href=\"%(pes_link)s\">%(pes_link)s</a>."
 msgstr ""
-"Primero únetenos en <a href=\"%(chat_link)s\">#migración</a> el canal de "
-"Mattermost. Puedes encontrar el código aquí: <a href=\"%(github_link)s\">"
-"%(github_link)s</a> y puedes agregar/editar/interactuar con la metadata en "
-"<a href=\"%(pes_link)s\">%(pes_link)s</a>."
+"Primero únase a nosotros en el canal <a href=\"%(chat_link)s\">#migration</"
+"a> de Mattermost. Encontrará el código de la herramienta aquí: <a href=\""
+"%(github_link)s\">%(github_link)s</a>; tras esto, podrá añadir, editar o "
+"interactuar con los metadatos de los paquetes en <a href=\"%(pes_link)s\""
+">%(pes_link)s</a>."
 
 #: www/templates/elevate/index.html:143
 msgid "Is this ready for production?"
@@ -456,9 +457,9 @@ msgid ""
 "source way."
 msgstr ""
 "El ecosistema CentOS es una comunidad muy grande y diversa. Hemos "
-"desarrollado este proyecto de buena fe con la esperanza de que todos en la "
-"comunidad puedan usarlo y contribuir, sin importar qué distribución "
-"prefieras. Esa es la forma de código abierto."
+"desarrollado este proyecto de buena fe, con la esperanza de que cualquier "
+"persona en la comunidad pueda usarlo y contribuir, sin importar qué "
+"distribución prefiera. Así se hacen las cosas en el mundo del código abierto."
 
 #: www/templates/foundation/members/index.html:6
 #: www/templates/foundation/members/index.html:7
