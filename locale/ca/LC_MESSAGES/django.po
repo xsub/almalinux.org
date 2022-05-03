@@ -3,20 +3,21 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-16 21:25+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2022-05-03 10:14+0000\n"
+"Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
+"Language-Team: Catalan <https://hosted.weblate.org/projects/almalinux/"
+"website-backend/ca/>\n"
+"Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.12.1\n"
 
 #: commons/templatetags/motd.py:39
 msgid "Read more"
@@ -24,7 +25,7 @@ msgstr ""
 
 #: www/templates/404.html:4
 msgid "404 Not Found - AlmaLinux OS"
-msgstr ""
+msgstr "404: no s’ha trobat el recurs • AlmaLinux OS"
 
 #: www/templates/404.html:6 www/templates/blog/index.html:10
 #: www/templates/blog/post.html:10 www/templates/index.html:8
@@ -40,51 +41,51 @@ msgstr ""
 
 #: www/templates/404.html:16
 msgid "Sorry, but the page you were trying to access could not be found."
-msgstr ""
+msgstr "No s’ha pogut trobar la pàgina a la qual intentàveu accedir."
 
 #: www/templates/_partial/footer.html:11 www/templates/_partial/navbar.html:41
 msgid "Resources"
-msgstr ""
+msgstr "Recursos"
 
 #: www/templates/_partial/footer.html:13 www/templates/_partial/navbar.html:31
 msgid "Wiki"
-msgstr ""
+msgstr "Wiki"
 
 #: www/templates/_partial/footer.html:15
 msgid "Bugs"
-msgstr ""
+msgstr "Errors"
 
 #: www/templates/_partial/footer.html:16
 msgid "Repository"
-msgstr ""
+msgstr "Dipòsit"
 
 #: www/templates/_partial/footer.html:17
 msgid "Downloads"
-msgstr ""
+msgstr "Baixades"
 
 #: www/templates/_partial/footer.html:18 www/templates/_partial/navbar.html:57
 msgid "Membership"
-msgstr ""
+msgstr "Membres"
 
 #: www/templates/_partial/footer.html:19 www/templates/_partial/navbar.html:62
 msgid "ELevate"
-msgstr ""
+msgstr "ELevate"
 
 #: www/templates/_partial/footer.html:20 www/templates/_partial/navbar.html:67
 msgid "Mailing Lists"
-msgstr ""
+msgstr "Llistes de correu"
 
 #: www/templates/_partial/footer.html:24
 msgid "Community"
-msgstr ""
+msgstr "Comunitat"
 
 #: www/templates/_partial/footer.html:26
 msgid "Chat"
-msgstr ""
+msgstr "Xat"
 
 #: www/templates/_partial/footer.html:27
 msgid "Forums"
-msgstr ""
+msgstr "Fòrums"
 
 #: www/templates/_partial/footer.html:36
 msgid "Legal"
@@ -92,67 +93,67 @@ msgstr ""
 
 #: www/templates/_partial/footer.html:38
 msgid "Legal Notice"
-msgstr ""
+msgstr "Avís legal"
 
 #: www/templates/_partial/footer.html:39 www/templates/index.html:347
 msgid "Privacy Policy"
-msgstr ""
+msgstr "Política de privadesa"
 
 #: www/templates/_partial/footer.html:40
 msgid "Terms of Service"
-msgstr ""
+msgstr "Termes del servei"
 
 #: www/templates/_partial/footer.html:43
 msgid "Licensing Policy"
-msgstr ""
+msgstr "Política de llicències"
 
 #: www/templates/_partial/footer.html:48
 msgid "Trademark Usage Policy"
-msgstr ""
+msgstr "Política d’ús de marques comercials"
 
 #: www/templates/_partial/footer.html:53
 msgid "Foundation Bylaws"
-msgstr ""
+msgstr "Estatuts de la fundació"
 
 #: www/templates/_partial/navbar.html:10
 msgid "AlmaLinux OS logo"
-msgstr ""
+msgstr "Logotip del sistema operatiu AlmaLinux"
 
 #: www/templates/_partial/navbar.html:19
 msgid "Toggle navigation"
-msgstr ""
+msgstr "Commuta la navegació"
 
 #: www/templates/_partial/navbar.html:26
 msgid "Blog"
-msgstr ""
+msgstr "Blog"
 
 #: www/templates/_partial/navbar.html:47
 msgid "Migrate from CentOS 8"
-msgstr ""
+msgstr "Migració des del CentOS 8"
 
 #: www/templates/_partial/navbar.html:52
 msgid "Report Bugs"
-msgstr ""
+msgstr "Informeu d’errors"
 
 #: www/templates/_partial/navbar.html:75
 msgid "Shop"
-msgstr ""
+msgstr "Botiga"
 
 #: www/templates/_partial/navbar.html:83
 msgid "Language"
-msgstr ""
+msgstr "Llengua"
 
 #: www/templates/_partial/navbar.html:107
 msgid "Translate"
-msgstr ""
+msgstr "Traducció"
 
 #: www/templates/_partial/navbar.html:115 www/templates/index.html:52
 msgid "Download"
-msgstr ""
+msgstr "Baixa"
 
 #: www/templates/blog/index.html:8
 msgid "AlmaLinux OS Blog"
-msgstr ""
+msgstr "Blog de l’AlmaLinux OS"
 
 #: www/templates/blog/index.html:51
 msgid "Continue reading"
@@ -160,11 +161,11 @@ msgstr ""
 
 #: www/templates/blog/index.html:64 www/templates/blog/index.html:70
 msgid "Previous"
-msgstr ""
+msgstr "Anterior"
 
 #: www/templates/blog/index.html:82 www/templates/blog/index.html:88
 msgid "Next"
-msgstr ""
+msgstr "Següent"
 
 #: www/templates/contribute/index.html:6
 msgid "AlmaLinux OS - Contribute"
@@ -190,35 +191,35 @@ msgstr ""
 
 #: www/templates/contribute/index.html:43
 msgid "General chat"
-msgstr ""
+msgstr "Xat general"
 
 #: www/templates/contribute/index.html:48
 msgid "Development"
-msgstr ""
+msgstr "Desenvolupament"
 
 #: www/templates/contribute/index.html:53
 msgid "Infrastructure"
-msgstr ""
+msgstr "Infraestructura"
 
 #: www/templates/contribute/index.html:58
 msgid "Security"
-msgstr ""
+msgstr "Seguretat"
 
 #: www/templates/contribute/index.html:63
 msgid "Documentation"
-msgstr ""
+msgstr "Documentació"
 
 #: www/templates/contribute/index.html:68
 msgid "Marketing"
-msgstr ""
+msgstr "Màrqueting"
 
 #: www/templates/contribute/index.html:73
 msgid "Web presence"
-msgstr ""
+msgstr "Presència web"
 
 #: www/templates/contribute/index.html:82
 msgid "Join AlmaLinux OS community chat"
-msgstr ""
+msgstr "Uniu-vos al xat de la comunitat AlmaLinux OS"
 
 #: www/templates/elevate/index.html:6
 msgid "AlmaLinux OS - ELevate Your Distribution"
@@ -229,6 +230,8 @@ msgid ""
 "ELevate enables migration between major versions of RHEL(r) derivatives. "
 "Easily go from CentOS 7.x to any 8.x of your choice"
 msgstr ""
+"L’ELevate permet la migració entre versions principals de derivats del RHEL®"
+". Passeu fàcilment del CentOS 7.x a qualsevol 8.x que trieu"
 
 #: www/templates/elevate/index.html:23
 msgid "ELevate Your Distribution"
@@ -537,7 +540,7 @@ msgstr ""
 
 #: www/templates/index.html:110
 msgid "Community chat"
-msgstr ""
+msgstr "Xat comunitari"
 
 #: www/templates/index.html:113
 msgid ""
@@ -565,7 +568,7 @@ msgstr ""
 
 #: www/templates/index.html:153
 msgid "About AlmaLinux OS"
-msgstr ""
+msgstr "Quant a l’AlmaLinux OS"
 
 #: www/templates/index.html:155
 msgid ""
@@ -688,16 +691,18 @@ msgstr ""
 
 #: www/templates/subscribe_post.html:27
 msgid "Thank you!"
-msgstr ""
+msgstr "Gràcies!"
 
 #: www/templates/subscribe_post.html:30
 msgid ""
 "You have successfully subscribed to AlmaLinux OS announcement mailing list!"
 msgstr ""
+"Us heu subscrit correctament a la llista de correu d’anuncis de l’AlmaLinux "
+"OS."
 
 #: www/views.py:54
 msgid "Email address is not valid"
-msgstr ""
+msgstr "L’adreça electrònica no és vàlida"
 
 #: www/views.py:78
 msgid "Failed to subscribe to mailing list, please try again later"
