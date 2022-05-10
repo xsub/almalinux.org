@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-16 21:25+0000\n"
-"PO-Revision-Date: 2021-10-25 19:43+0000\n"
+"PO-Revision-Date: 2022-05-10 14:13+0000\n"
 "Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/almalinux/"
 "website-backend/sv/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9-dev\n"
+"X-Generator: Weblate 4.12.1\n"
 
 #: commons/templatetags/motd.py:39
 msgid "Read more"
@@ -75,7 +75,7 @@ msgstr "ELevate"
 
 #: www/templates/_partial/footer.html:20 www/templates/_partial/navbar.html:67
 msgid "Mailing Lists"
-msgstr ""
+msgstr "Epostlistor"
 
 #: www/templates/_partial/footer.html:24
 msgid "Community"
