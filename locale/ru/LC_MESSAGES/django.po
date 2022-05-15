@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: almalinuxorg/1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-16 21:25+0000\n"
-"PO-Revision-Date: 2022-05-03 10:14+0000\n"
-"Last-Translator: Viktor <xasertop@gmail.com>\n"
+"PO-Revision-Date: 2022-05-15 12:51+0000\n"
+"Last-Translator: Mikhail Pershin <mikhail@frcdr.org>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/almalinux/"
 "website-backend/ru/>\n"
 "Language: ru\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
 "%100>=11 && n%100<=14)? 2 : 3);\n"
-"X-Generator: Weblate 4.12.1\n"
+"X-Generator: Weblate 4.13-dev\n"
 
 #: commons/templatetags/motd.py:39
 msgid "Read more"
@@ -280,7 +280,7 @@ msgstr ""
 
 #: www/templates/elevate/index.html:77
 msgid "Package Evolution Service"
-msgstr ""
+msgstr "Служба эволюции пакетов (Package Evolution Service)"
 
 #: www/templates/elevate/index.html:80
 #, python-format
@@ -290,6 +290,10 @@ msgid ""
 "submit new data sets for packages. Users and maintainers can both utilize "
 "the PES to help make migrations smooth and easy."
 msgstr ""
+"Сердцем ELevate является <a href=\"%(pes_link)s\">Служба эволюции пакетов ("
+"Package Evolution Service)</a>, позволяющая вам загружать, изменять и даже "
+"отправлять новые наборы данных пакетов. Как пользователи, так и разработчики "
+"пакетов могут использовать PES для упрощения процессов миграции."
 
 #: www/templates/elevate/index.html:93
 msgid "Community-wide Project"
@@ -393,7 +397,7 @@ msgstr "Во время миграции вашу систему потребу�
 
 #: www/templates/elevate/index.html:203
 msgid "What does the Package Evolution Service do?"
-msgstr ""
+msgstr "Что делает Служба эволюции пакетов (Package Evolution Service)?"
 
 #: www/templates/elevate/index.html:208
 msgid ""
@@ -404,6 +408,13 @@ msgid ""
 "to improve the data by adding new actions or even create a custom dataset "
 "for packages from third-party or private repositories."
 msgstr ""
+"Служба эволюции пакетов (Package Evolution Service) хранит метаданные о "
+"миграции пакетов. От этих метаданных зависит процесс эволюции пакета по мере "
+"обновления дистрибутива до следующей мажорной версии. PES поддерживает "
+"несколько классов правил для пакетов, таких как добавленные, удалённые, "
+"переименованные, разделённые, соединённые и т.д. Служба также позволяет "
+"любому улучшать данные, добавляя новые действия или даже создавая "
+"собственный набор данных из сторонних или приватных репозиториев."
 
 #: www/templates/elevate/index.html:220
 msgid ""
