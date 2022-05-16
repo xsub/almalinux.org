@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-16 21:25+0000\n"
-"PO-Revision-Date: 2022-05-16 19:07+0000\n"
+"PO-Revision-Date: 2022-05-16 19:10+0000\n"
 "Last-Translator: Taras Panchenko <top39@ukr.net>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/almalinux/"
 "website-backend/uk/>\n"
@@ -469,7 +469,7 @@ msgstr "Фонд ОС AlmaLinux - членство"
 
 #: www/templates/foundation/members/index.html:21
 msgid "Join the AlmaLinux OS Foundation"
-msgstr "Приєднуйтесь до спільноти ОС AlmaLinux"
+msgstr "Приєднуйтеся до Фонду ОС AlmaLinux"
 
 #: www/templates/foundation/members/index.html:25
 msgid ""
@@ -512,7 +512,7 @@ msgstr ""
 
 #: www/templates/foundation/members/index.html:63
 msgid "Join AlmaLinux OS Foundation"
-msgstr "Приєднуйтесь до спільноти ОС AlmaLinux"
+msgstr "Приєднуйтесь до Фонду ОС AlmaLinux"
 
 #: www/templates/foundation/members/index.html:69
 msgid "Contributor Member"
