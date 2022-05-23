@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-16 21:25+0000\n"
-"PO-Revision-Date: 2022-03-30 13:06+0000\n"
+"PO-Revision-Date: 2022-05-23 19:14+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/almalinux/"
 "website-backend/pt/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.12-dev\n"
+"X-Generator: Weblate 4.13-dev\n"
 
 #: commons/templatetags/motd.py:39
 msgid "Read more"
@@ -370,7 +370,7 @@ msgstr ""
 
 #: www/templates/elevate/index.html:158
 msgid "What operating systems does ELevate support?"
-msgstr "Que sistemas operacionais o ELevate suporta?"
+msgstr "Que sistemas operativos o ELevate suporta?"
 
 #: www/templates/elevate/index.html:163
 msgid ""
