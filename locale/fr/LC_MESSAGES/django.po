@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-16 21:25+0000\n"
-"PO-Revision-Date: 2022-01-15 07:54+0000\n"
-"Last-Translator: gz83 <uioptt24@gmail.com>\n"
-"Language-Team: French <https://hosted.weblate.org/projects/almalinux/website-"
-"backend/fr/>\n"
+"PO-Revision-Date: 2022-05-23 19:14+0000\n"
+"Last-Translator: Clyhtsuriva <aimeric@adjutor.xyz>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/almalinux/"
+"website-backend/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.10.1\n"
+"X-Generator: Weblate 4.13-dev\n"
 
 #: commons/templatetags/motd.py:39
 msgid "Read more"
@@ -25,7 +25,7 @@ msgstr "Lire Plus"
 
 #: www/templates/404.html:4
 msgid "404 Not Found - AlmaLinux OS"
-msgstr "404 Page non trouvée - AlmaLinux OS"
+msgstr "404 Non trouvé - AlmaLinux OS"
 
 #: www/templates/404.html:6 www/templates/blog/index.html:10
 #: www/templates/blog/post.html:10 www/templates/index.html:8
@@ -68,7 +68,7 @@ msgstr "Téléchargements"
 
 #: www/templates/_partial/footer.html:18 www/templates/_partial/navbar.html:57
 msgid "Membership"
-msgstr "Membres"
+msgstr "Adhésion"
 
 #: www/templates/_partial/footer.html:19 www/templates/_partial/navbar.html:62
 msgid "ELevate"
@@ -108,7 +108,7 @@ msgstr "Conditions d'utilisation"
 
 #: www/templates/_partial/footer.html:43
 msgid "Licensing Policy"
-msgstr "Politique de license"
+msgstr "Politique de licence"
 
 #: www/templates/_partial/footer.html:48
 msgid "Trademark Usage Policy"
@@ -116,11 +116,11 @@ msgstr "-Politique d'utilisation des marques"
 
 #: www/templates/_partial/footer.html:53
 msgid "Foundation Bylaws"
-msgstr "Statuts de la Fondation"
+msgstr "Règlement intérieur de la Fondation"
 
 #: www/templates/_partial/navbar.html:10
 msgid "AlmaLinux OS logo"
-msgstr "Logo du SE AlmaLinux"
+msgstr "Logo d'AlmaLinux OS"
 
 #: www/templates/_partial/navbar.html:19
 msgid "Toggle navigation"
@@ -156,7 +156,7 @@ msgstr "Télécharger"
 
 #: www/templates/blog/index.html:8
 msgid "AlmaLinux OS Blog"
-msgstr "Blog du SE AlmaLinux"
+msgstr "Blog d'AlmaLinux OS"
 
 #: www/templates/blog/index.html:51
 msgid "Continue reading"
@@ -172,11 +172,11 @@ msgstr "Suivant"
 
 #: www/templates/contribute/index.html:6
 msgid "AlmaLinux OS - Contribute"
-msgstr "SE AlmaLinux - Contribuer"
+msgstr "AlmaLinux OS - Contribuer"
 
 #: www/templates/contribute/index.html:7 www/templates/contribute/index.html:22
 msgid "Contribute to AlmaLinux OS development"
-msgstr "Contribuer au développement du SE AlmaLinux"
+msgstr "Contribuer au développement d'AlmaLinux OS"
 
 #: www/templates/contribute/index.html:26
 msgid ""
@@ -184,10 +184,9 @@ msgid ""
 "community chat. There are many ways to contribute to AlmaLinux OS - testing, "
 "quality assurance, documentation, and more."
 msgstr ""
-"Le développement du système d'exploitation AlmaLinux et de l'infrastructure "
-"est organisé à l'aide de notre tchat communautaire. Il existe de nombreuses "
-"façons de contribuer au système d'exploitation AlmaLinux : tests, contrôle "
-"qualité, documentation, etc."
+"Le développement d'AlmaLinux OS et de l'infrastructure est organisé à l'aide "
+"de notre tchat communautaire. Il existe de nombreuses façons de contribuer à "
+"AlmaLinux OS : tests, contrôle qualité, documentation, etc."
 
 #: www/templates/contribute/index.html:33
 #, python-format
@@ -380,9 +379,9 @@ msgid ""
 "following OS: <ul> <li>AlmaLinux OS 8</li> <li>CentOS Stream 8</li> "
 "<li>Oracle Linux 8</li> <li>Rocky Linux 8</li> </ul>"
 msgstr ""
-"Actuellement ELevate fournit des données Leapp pour la migration de CentOS 7 "
-"vers les OS suivants: <ul> <li>AlmaLinux OS 8</li> <li>CentOS Stream 8</li> "
-"<li>Oracle Linux 8</li> <li>Rocky Linux 8<li></ul>"
+"Actuellement, ELevate fournit des données Leapp pour la migration de CentOS "
+"7 vers les OS suivants : <ul> <li>AlmaLinux OS 8</li> <li>CentOS Stream 8</"
+"li> <li>Oracle Linux 8</li> <li>Rocky Linux 8<li></ul>"
 
 #: www/templates/elevate/index.html:177
 msgid "Will migration be \"in-place\"?"
@@ -495,10 +494,10 @@ msgid ""
 "sponsors and service providers to the community, as well as official "
 "sponsors for the project."
 msgstr ""
-"La Fondation AlmaLinux est l'entité derrière le système AlmaLinux, une "
-"distribution Linux pour entreprises et gratuite pour toujours. En tant que "
-"membre, vous obtenez une voix dans la direction du projet, et vous pouvez "
-"voter et être voté pour dans le conseil d'administration par les autres "
+"La Fondation AlmaLinux est l'entité derrière AlmaLinux OS, la distribution "
+"Linux sempiternellement gratuite de qualité entreprise. En tant que membre, "
+"vous obtenez une voix dans la direction du projet, et vous pouvez voter et "
+"être voté pour rentrer dans le conseil d'administration par les autres "
 "membres. Il existe plusieurs chemins pour devenir un membre, comme les "
 "contributions au projet, le maintient, le sponsor ou la fourniture de "
 "services pour les miroirs envers la communauté, mais aussi être un sponsor "
@@ -528,9 +527,9 @@ msgid ""
 "AlmaLinux OS, provides services to the AlmaLinux OS community or otherwise "
 "supports the AlmaLinux OS."
 msgstr ""
-"Une application individuelle pour chacun qui utilise le système AlmaLinux, y "
-"contribue, propose des services à la communauté ou encore supporte le "
-"système AlmaLinux."
+"Une candidature individuelle pour toute personne qui utilise AlmaLinux OS, y "
+"contribue, propose des services à la communauté ou encore supporte AlmaLinux "
+"OS."
 
 #: www/templates/foundation/members/index.html:81
 #: www/templates/foundation/members/index.html:103
@@ -610,7 +609,7 @@ msgid ""
 "AlmaLinux OS and related infrastructure."
 msgstr ""
 "Notre organisation GitHub contient le code source et les outils utilisés "
-"pour compiler AlmaLinux OS son infrastructure."
+"pour compiler AlmaLinux OS et son infrastructure."
 
 #: www/templates/index.html:81
 msgid "Explore"
@@ -621,7 +620,7 @@ msgid ""
 "Join our vibrant Reddit community, interact with other AlmaLinux OS users, "
 "receive updates, find and provide help."
 msgstr ""
-"Rejoignez notre vibrante communauté sur Reddit, interagissez avec d'autres "
+"Rejoignez notre communauté vibrante sur Reddit, interagissez avec d'autres "
 "utilisateurs et utilisatrices d'AlmaLinux OS, recevez des actualités, "
 "trouvez et proposez de l'aide."
 
@@ -765,7 +764,7 @@ msgid ""
 "Subscribe to our newsletter and never miss out on the latest in AlmaLinux OS "
 "development!"
 msgstr ""
-"Abonnez-vous à notre lettre d'information et ne manquez jamais les dernière "
+"Abonnez-vous à notre lettre d'information et ne manquez jamais les dernières "
 "informations sur le développement d'AlmaLinux OS !"
 
 #: www/templates/index.html:332
@@ -781,8 +780,9 @@ msgid ""
 "By filling this form you agree to be contacted by AlmaLinux OS Foundation "
 "regarding your request. You can unsubscribe at any time."
 msgstr ""
-"En complétant ce formulaire vous acceptez d'être contacté·e par la fondation "
-"AlmaLinux OS pour votre demande. Vous pouvez vous désabonner à tout moment."
+"En remplissant ce formulaire, vous acceptez d'être contacté·e par la "
+"fondation AlmaLinux OS pour votre demande. Vous pouvez vous désabonner à "
+"tout moment."
 
 #: www/templates/index.html:358
 msgid "AlmaLinux OS in the Press"
