@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-16 21:25+0000\n"
-"PO-Revision-Date: 2022-06-10 07:19+0000\n"
+"PO-Revision-Date: 2022-06-11 08:19+0000\n"
 "Last-Translator: Richardn <richard_niu@sjtu.edu.cn>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "almalinux/website-backend/zh_Hans/>\n"
@@ -133,7 +133,7 @@ msgstr "从 CentOS 8 迁移"
 
 #: www/templates/_partial/navbar.html:52
 msgid "Report Bugs"
-msgstr "报告错误"
+msgstr "反馈漏洞"
 
 #: www/templates/_partial/navbar.html:75
 msgid "Shop"
@@ -198,7 +198,7 @@ msgstr "常规聊天"
 
 #: www/templates/contribute/index.html:48
 msgid "Development"
-msgstr "发展"
+msgstr "开发"
 
 #: www/templates/contribute/index.html:53
 msgid "Infrastructure"
@@ -218,7 +218,7 @@ msgstr "营销"
 
 #: www/templates/contribute/index.html:73
 msgid "Web presence"
-msgstr "网络状态"
+msgstr "网络存在"
 
 #: www/templates/contribute/index.html:82
 msgid "Join AlmaLinux OS community chat"
@@ -338,7 +338,7 @@ msgstr ""
 
 #: www/templates/elevate/index.html:143
 msgid "Is this ready for production?"
-msgstr "这个能够满足生产要求吗？"
+msgstr "这能被用于生产环境吗？"
 
 #: www/templates/elevate/index.html:148
 msgid ""
