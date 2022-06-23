@@ -8,17 +8,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-16 21:25+0000\n"
-"PO-Revision-Date: 2022-02-18 16:57+0000\n"
+"PO-Revision-Date: 2022-06-23 15:29+0000\n"
 "Last-Translator: shoothub <reloadshoot@gmail.com>\n"
-"Language-Team: Slovak <https://hosted.weblate.org/projects/almalinux/website-"
-"backend/sk/>\n"
+"Language-Team: Slovak <https://hosted.weblate.org/projects/almalinux/"
+"website-backend/sk/>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n "
 ">= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
-"X-Generator: Weblate 4.11-dev\n"
+"X-Generator: Weblate 4.13.1-dev\n"
 
 #: commons/templatetags/motd.py:39
 msgid "Read more"
@@ -35,8 +35,8 @@ msgid ""
 "An Open Source, community owned and governed, forever-free enterprise Linux "
 "distribution."
 msgstr ""
-"Open source, komunitou vlastnená a riadená, navždy bezplatná podniková "
-"linuxová distribúcia."
+"Navždy bezplatná podniková linuxová distribúcia s otvoreným kódom, riadená a "
+"vlastnená komunitou."
 
 #: www/templates/404.html:13
 msgid "404 Not Found"
@@ -207,7 +207,7 @@ msgstr "Vývoj"
 
 #: www/templates/contribute/index.html:53
 msgid "Infrastructure"
-msgstr "Infraštrukúra"
+msgstr "Infraštruktúra"
 
 #: www/templates/contribute/index.html:58
 msgid "Security"
@@ -275,7 +275,7 @@ msgid ""
 "based distributions from 7.x to 8.x. Preserve your applications, your data, "
 "and your sanity. Run the most recent version of the OS and software you need."
 msgstr ""
-"Doteraz to nebolo možno. Jednoducho migrujte medzi hlavnými verziami "
+"Doteraz to nebolo možné. Jednoducho migrujte medzi hlavnými verziami "
 "distribúcií založených na RHEL z verzie 7.x na 8.x. Zachovajte si svoje "
 "aplikácie, údaje a zdravý rozum. Spúšťajte najnovšiu verziu operačného "
 "systému a softvéru, ktorý potrebujete."
@@ -687,7 +687,7 @@ msgstr ""
 
 #: www/templates/index.html:183
 msgid "Backed by"
-msgstr "Podporujú nás"
+msgstr "S podporou"
 
 #: www/templates/index.html:207
 msgid "Production-ready"
