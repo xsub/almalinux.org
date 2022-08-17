@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-16 21:25+0000\n"
-"PO-Revision-Date: 2022-04-25 02:48+0000\n"
-"Last-Translator: Hocine Abdellatif Houari <hahouari@proton.me>\n"
+"PO-Revision-Date: 2022-08-17 01:17+0000\n"
+"Last-Translator: M7md M7rm <gamerghost545@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/almalinux/"
 "website-backend/ar/>\n"
 "Language: ar\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 4.12.1-dev\n"
+"X-Generator: Weblate 4.14-dev\n"
 
 #: commons/templatetags/motd.py:39
 msgid "Read more"
@@ -275,6 +275,9 @@ msgid ""
 "based distributions from 7.x to 8.x. Preserve your applications, your data, "
 "and your sanity. Run the most recent version of the OS and software you need."
 msgstr ""
+"لما يكن ممكنا --حتى الان. حول الان بين النسخ الكبرى للقباعه الحمراء من "
+"النسخه 7.x و 8.x . احصل على برامجك و بياناتك و صحتك العقليه . شغل جميع النسخ "
+"الحديثه من برامجك و الانظمه التي انت بحاجتها ."
 
 #: www/templates/elevate/index.html:77
 msgid "Package Evolution Service"
@@ -354,6 +357,9 @@ msgid ""
 "following OS: <ul> <li>AlmaLinux OS 8</li> <li>CentOS Stream 8</li> "
 "<li>Oracle Linux 8</li> <li>Rocky Linux 8</li> </ul>"
 msgstr ""
+"حاليا ELevate يوفر افضل طريقه للهجره من CentOS 7 الى احد الخيارات : <ul> "
+"<li>AlmaLinux OS 8</li> <li>CentOS Stream 8</li> <li>Oracle Linux 8</li> "
+"<li>Rocky Linux 8</li> </ul>"
 
 #: www/templates/elevate/index.html:177
 msgid "Will migration be \"in-place\"?"
@@ -396,6 +402,8 @@ msgid ""
 "No. We respect Red Hat’s work and our initial data set was provided by the "
 "AlmaLinux Foundation and contributions from Oracle."
 msgstr ""
+"لا . نحن نحترم عمل القباعه الحمراء و عملنا الاولي كان كاملا من منظمه "
+"AlmaLinux و نحصل على دعم من اوراكل -Oracle-."
 
 #: www/templates/elevate/index.html:234
 msgid "What license is your metadata under?"
@@ -420,21 +428,23 @@ msgstr ""
 #: www/templates/foundation/members/index.html:6
 #: www/templates/foundation/members/index.html:7
 msgid "AlmaLinux OS Foundation - membership"
-msgstr ""
+msgstr "مؤسسة AlmaLinux OS - اشتراك"
 
 #: www/templates/foundation/members/index.html:21
 msgid "Join the AlmaLinux OS Foundation"
-msgstr ""
+msgstr "الانظمة الى مؤسسة AlmaLinux OS"
 
 #: www/templates/foundation/members/index.html:25
 msgid ""
 "Be heard! Join the AlmaLinux Foundation as a Member or Sponsor. Own and vote "
 "on shaping the future of AlmaLinux OS!"
 msgstr ""
+"اجعل من نفسك مسموعا! أنضم الى مؤسسه AlmaLinux من قبل مشترك او داعم. امتلك و "
+"صوت بتشكيل مستقبل AlmaLinux OS!"
 
 #: www/templates/foundation/members/index.html:32
 msgid "Apply for membership"
-msgstr ""
+msgstr "الأشتراك"
 
 #: www/templates/foundation/members/index.html:41
 msgid ""
@@ -473,11 +483,11 @@ msgstr ""
 #: www/templates/foundation/members/index.html:103
 #: www/templates/foundation/members/index.html:121
 msgid "Apply"
-msgstr ""
+msgstr "التقديم"
 
 #: www/templates/foundation/members/index.html:90
 msgid "Mirror Member"
-msgstr ""
+msgstr "عضو المرءاه"
 
 #: www/templates/foundation/members/index.html:93
 msgid ""
@@ -501,19 +511,19 @@ msgstr ""
 
 #: www/templates/foundation/members/index.html:132
 msgid "Contact us"
-msgstr ""
+msgstr "تواصل معنا"
 
 #: www/templates/foundation/members/index.html:141
 msgid "Board of Directors"
-msgstr ""
+msgstr "لوحه الداعمين او المخرجين"
 
 #: www/templates/index.html:6
 msgid "AlmaLinux OS - Forever-Free Enterprise-Grade Operating System"
-msgstr ""
+msgstr "AlmaLinux OS للابد - مجانا للشركات - نظام تشغيل من الدرجه الاولى"
 
 #: www/templates/index.html:34
 msgid "Free Linux OS for the community, by the community"
-msgstr ""
+msgstr "نظام لينكس المجاني من المجتمع , للمجتمع"
 
 #: www/templates/index.html:37
 msgid ""
@@ -525,11 +535,11 @@ msgstr ""
 
 #: www/templates/index.html:47
 msgid "Contribute"
-msgstr ""
+msgstr "بادر معنا"
 
 #: www/templates/index.html:57
 msgid "Migrate"
-msgstr ""
+msgstr "انتقل -هاجر-"
 
 #: www/templates/index.html:73
 msgid ""
@@ -539,21 +549,23 @@ msgstr ""
 
 #: www/templates/index.html:81
 msgid "Explore"
-msgstr ""
+msgstr "اكتشف"
 
 #: www/templates/index.html:93
 msgid ""
 "Join our vibrant Reddit community, interact with other AlmaLinux OS users, "
 "receive updates, find and provide help."
 msgstr ""
+"انضم الى مجتمع الريديت , و تحاور مع بقيه مستخدمي AlmaLinux OS , و احصل على "
+"اخر الاخبار , واكتشف وبادر بالمساعده."
 
 #: www/templates/index.html:101
 msgid "Join"
-msgstr ""
+msgstr "أنضم"
 
 #: www/templates/index.html:110
 msgid "Community chat"
-msgstr ""
+msgstr "محادثه المجتمع"
 
 #: www/templates/index.html:113
 msgid ""
@@ -577,7 +589,7 @@ msgstr ""
 
 #: www/templates/index.html:139
 msgid "Discover"
-msgstr ""
+msgstr "اكتشف"
 
 #: www/templates/index.html:153
 msgid "About AlmaLinux OS"
@@ -606,7 +618,7 @@ msgstr ""
 
 #: www/templates/index.html:183
 msgid "Backed by"
-msgstr ""
+msgstr "من وراءنا"
 
 #: www/templates/index.html:207
 msgid "Production-ready"
@@ -652,7 +664,7 @@ msgstr ""
 
 #: www/templates/index.html:315
 msgid "Stay updated!"
-msgstr ""
+msgstr "ابقاء مطلعا !"
 
 #: www/templates/index.html:318
 msgid ""
