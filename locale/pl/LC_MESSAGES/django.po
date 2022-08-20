@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-16 21:25+0000\n"
-"PO-Revision-Date: 2022-07-15 20:18+0000\n"
-"Last-Translator: Max <maksymilianpotok@protonmail.ch>\n"
+"PO-Revision-Date: 2022-08-20 15:18+0000\n"
+"Last-Translator: WaldiS <sto@tutanota.de>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/almalinux/"
 "website-backend/pl/>\n"
 "Language: pl\n"
@@ -329,6 +329,10 @@ msgid ""
 "Leapp framework with a community created library and service for the "
 "migration metadata set required for it."
 msgstr ""
+"ELevate to projekt mający na celu zapewnienie możliwości migracji pomiędzy "
+"głównymi wersjami dystrybucji opartych na RHEL od 7.x do 8.x. Łączy on "
+"framework Leapp firmy Red Hat z biblioteką i usługą stworzoną przez "
+"społeczność dla wymaganego do tego zestawu metadanych migracyjnych."
 
 #: www/templates/elevate/index.html:127
 msgid "This looks awesome. How can I contribute?"
@@ -342,6 +346,10 @@ msgid ""
 "%(github_link)s</a> and you can add/edit/interact with package metadata at "
 "<a href=\"%(pes_link)s\">%(pes_link)s</a>."
 msgstr ""
+"Najpierw dołącz do nas na kanale <a href=\"%(chat_link)s\">#migration</a> "
+"Mattermost. Kod narzędzia znajdziesz tutaj: <a href=\"%(github_link)s\""
+">%(github_link)s</a> , a metadane pakietów możesz dodawać/edytować/wchodzić "
+"w interakcje z nimi na <a href=\"%(pes_link)s\">%(pes_link)s</a> ."
 
 #: www/templates/elevate/index.html:143
 msgid "Is this ready for production?"
@@ -368,6 +376,9 @@ msgid ""
 "following OS: <ul> <li>AlmaLinux OS 8</li> <li>CentOS Stream 8</li> "
 "<li>Oracle Linux 8</li> <li>Rocky Linux 8</li> </ul>"
 msgstr ""
+"Obecnie ELevate dostarcza dane Leapp dla migracji z CentOS 7 do "
+"następujących OS: <ul> <li>AlmaLinux OS 8</li> <li>CentOS Stream 8</li> "
+"<li>Oracle Linux 8</li> <li>Rocky Linux 8</li> </ul>"
 
 #: www/templates/elevate/index.html:177
 msgid "Will migration be \"in-place\"?"
@@ -387,7 +398,7 @@ msgstr "Migracje będą wymagały podwójnego restartu twojego systemu."
 
 #: www/templates/elevate/index.html:203
 msgid "What does the Package Evolution Service do?"
-msgstr ""
+msgstr "Do czego służy usługa Package Evolution Service?"
 
 #: www/templates/elevate/index.html:208
 msgid ""
@@ -398,18 +409,29 @@ msgid ""
 "to improve the data by adding new actions or even create a custom dataset "
 "for packages from third-party or private repositories."
 msgstr ""
+"Serwis Package Evolution przechowuje metadane dotyczące migracji pakietów. "
+"Metadane odpowiadają na pytania dotyczące ewolucji pakietów pomiędzy "
+"głównymi wydaniami dystrybucji. PES obsługuje kilka klas reguł dla pakietów, "
+"takich jak dodane, usunięte, zmienione nazwy, podzielone, scalone i tak "
+"dalej. Usługa pozwala również każdemu na ulepszenie danych poprzez dodanie "
+"nowych działań lub nawet stworzenie niestandardowego zbioru danych dla "
+"pakietów z repozytoriów stron trzecich lub prywatnych."
 
 #: www/templates/elevate/index.html:220
 msgid ""
 "Red Hat offers a data set which is non-freely licensed. Are you using this "
 "same data set?"
 msgstr ""
+"Red Hat oferuje zestaw danych, który nie jest objęty wolną licencją. Czy "
+"używacie tego samego zestawu danych?"
 
 #: www/templates/elevate/index.html:225
 msgid ""
 "No. We respect Red Hat’s work and our initial data set was provided by the "
 "AlmaLinux Foundation and contributions from Oracle."
 msgstr ""
+"Nie. Szanujemy pracę firmy Red Hat, a nasz początkowy zestaw danych został "
+"dostarczony przez Fundację AlmaLinux oraz wkład firmy Oracle."
 
 #: www/templates/elevate/index.html:234
 msgid "What license is your metadata under?"
@@ -417,11 +439,11 @@ msgstr "Jaką licencją są objęte wasze metadane?"
 
 #: www/templates/elevate/index.html:239
 msgid "The metadata is provided under an Apache License."
-msgstr ""
+msgstr "Metadane są udostępniane na licencji Apache."
 
 #: www/templates/elevate/index.html:247
 msgid "Why are you supporting migration to other distributions?"
-msgstr ""
+msgstr "Dlaczego wspieracie migrację do innych dystrybucji?"
 
 #: www/templates/elevate/index.html:252
 msgid ""
@@ -430,6 +452,10 @@ msgid ""
 "use and contribute to, no matter which distro you prefer. That’s the open "
 "source way."
 msgstr ""
+"Ekosystem CentOS jest bardzo dużą i zróżnicowaną społecznością. Rozwijaliśmy "
+"ten projekt w dobrej wierze, mając nadzieję, że każdy w społeczności będzie "
+"mógł go używać i współtworzyć, bez względu na to, którą dystrybucję "
+"preferujesz. To jest właśnie droga open source."
 
 #: www/templates/foundation/members/index.html:6
 #: www/templates/foundation/members/index.html:7
@@ -450,7 +476,7 @@ msgstr ""
 
 #: www/templates/foundation/members/index.html:32
 msgid "Apply for membership"
-msgstr ""
+msgstr "Złóż wniosek o członkostwo"
 
 #: www/templates/foundation/members/index.html:41
 msgid ""
@@ -462,6 +488,12 @@ msgid ""
 "sponsors and service providers to the community, as well as official "
 "sponsors for the project."
 msgstr ""
+"Fundacja AlmaLinux jest jednostką stojącą za AlmaLinux OS, zawsze wolną "
+"dystrybucją Linuksa klasy Enterprise. Jako członek będziesz miał wpływ na "
+"kierunek rozwoju projektu, możesz głosować i być wybieranym do zarządu przez "
+"innych członków. Istnieje kilka ścieżek, aby zostać członkiem, w tym "
+"współpracownicy projektu, opiekunowie/sponsorzy mirrorów i dostawcy usług "
+"dla społeczności, jak również oficjalni sponsorzy projektu."
 
 #: www/templates/foundation/members/index.html:51
 msgid ""
@@ -469,6 +501,9 @@ msgid ""
 "the Board or by a committee appointed for this purpose, according to the "
 "Bylaws established by the Board."
 msgstr ""
+"Zasadność każdego wniosku będzie rozpatrywana indywidualnie przez Zarząd lub "
+"przez komisję powołaną w tym celu, zgodnie z Regulaminem ustanowionym przez "
+"Zarząd."
 
 #: www/templates/foundation/members/index.html:63
 #, fuzzy
@@ -490,8 +525,9 @@ msgstr ""
 #: www/templates/foundation/members/index.html:81
 #: www/templates/foundation/members/index.html:103
 #: www/templates/foundation/members/index.html:121
+#, fuzzy
 msgid "Apply"
-msgstr ""
+msgstr "Zastosuj"
 
 #: www/templates/foundation/members/index.html:90
 msgid "Mirror Member"
@@ -512,6 +548,8 @@ msgstr ""
 msgid ""
 "Entities who wish to contribute funding for the project through sponsorship."
 msgstr ""
+"Podmioty, które chcą wnieść środki finansowe na realizację projektu poprzez "
+"sponsoring."
 
 #: www/templates/foundation/members/index.html:131
 msgid "Do you have membership related questions?"
