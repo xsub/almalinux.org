@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-16 21:25+0000\n"
-"PO-Revision-Date: 2022-05-30 18:17+0000\n"
-"Last-Translator: Douglas Han <dkh1@protonmail.ch>\n"
+"PO-Revision-Date: 2022-08-31 05:18+0000\n"
+"Last-Translator: Hoseok Seo <ddinghoya@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/almalinux/"
 "website-backend/ko/>\n"
 "Language: ko\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.13-dev\n"
+"X-Generator: Weblate 4.14.1-dev\n"
 
 #: commons/templatetags/motd.py:39
 msgid "Read more"
@@ -221,7 +221,7 @@ msgstr "마케팅"
 
 #: www/templates/contribute/index.html:73
 msgid "Web presence"
-msgstr ""
+msgstr "웹 참석"
 
 #: www/templates/contribute/index.html:82
 msgid "Join AlmaLinux OS community chat"
@@ -229,7 +229,7 @@ msgstr "AlmaLinux OS 커뮤니티 채팅에 참여하기"
 
 #: www/templates/elevate/index.html:6
 msgid "AlmaLinux OS - ELevate Your Distribution"
-msgstr ""
+msgstr "알마리눅스 OS - ELevate 배포"
 
 #: www/templates/elevate/index.html:8
 msgid ""
@@ -241,13 +241,15 @@ msgstr ""
 
 #: www/templates/elevate/index.html:23
 msgid "ELevate Your Distribution"
-msgstr ""
+msgstr "ELevate 배포"
 
 #: www/templates/elevate/index.html:27
 msgid ""
 "ELevate enables migration between major versions of RHEL&reg; derivatives. "
 "Easily go from CentOS 7.x to any 8.x of your choice"
 msgstr ""
+"Elevate를 사용하면 주요 버전의 RHEL&reg;의 주요 버전 간에 마이그레이션할 수 "
+"있습니다. 센트OS 7.x에서 원하는 8.x로 쉽게 이동할 수 있습니다"
 
 #: www/templates/elevate/index.html:37
 msgid "Get Started"
@@ -276,7 +278,6 @@ msgstr ""
 "및 소프트웨어의 최신 버전을 실행합니다."
 
 #: www/templates/elevate/index.html:77
-#, fuzzy
 msgid "Package Evolution Service"
 msgstr "패키지 에볼루션 서비스"
 
@@ -303,13 +304,15 @@ msgid ""
 "for the whole ecosystem, not just AlmaLinux. ELevate supports migrating to/"
 "from other distributions and is open for all to contribute to and enhance."
 msgstr ""
+"Elevate는 배포에 구애받지 않는 방식으로 개발되었으며 알마리눅스 뿐만 아니라 "
+"전체 생태계를 위한 도구로 구축되었습니다. Elevate는 다른 배포판으로의 "
+"마이그레이션을 지원하며 모든 사람이 기여하고 향상할 수 있도록 열려 있습니다."
 
 #: www/templates/elevate/index.html:107
 msgid "FAQ"
 msgstr "자주하는 질문"
 
 #: www/templates/elevate/index.html:112
-#, fuzzy
 msgid "What is ELevate?"
 msgstr "ELevate란 무엇입니까?"
 
@@ -325,7 +328,6 @@ msgstr ""
 "타데이터 세트를 위한 커뮤니티 생성 라이브러리 및 서비스를 결합합니다."
 
 #: www/templates/elevate/index.html:127
-#, fuzzy
 msgid "This looks awesome. How can I contribute?"
 msgstr "이것은 굉장해 보입니다. 어떻게 기여할 수 있습니까?"
 
@@ -337,10 +339,14 @@ msgid ""
 "%(github_link)s</a> and you can add/edit/interact with package metadata at "
 "<a href=\"%(pes_link)s\">%(pes_link)s</a>."
 msgstr ""
+"먼저 <a href=\"%(chat_link)s\">#migration</a> 매터모스트 채널에 참여하세요. "
+"도구 코드는 <a href=\"%(github_link)s\">%(github_link)s</a>에서 찾을 수 "
+"있으며 <a href=\"%(pes_link)s\">%(pes_link)s</a>에서 패키지 메타데이터를 "
+"추가/편집/상호작용할 수 있습니다."
 
 #: www/templates/elevate/index.html:143
 msgid "Is this ready for production?"
-msgstr ""
+msgstr "제작 준비가 되었습니까?"
 
 #: www/templates/elevate/index.html:148
 msgid ""
@@ -369,7 +375,7 @@ msgstr ""
 
 #: www/templates/elevate/index.html:177
 msgid "Will migration be \"in-place\"?"
-msgstr ""
+msgstr "마이그레이션이 \"현재 위치\"입니까?"
 
 #: www/templates/elevate/index.html:182
 msgid "Yes. All your data, applications and settings will be kept."
@@ -377,7 +383,7 @@ msgstr "네. 모든 데이터, 애플리케이션 및 설정이 유지됩니다.
 
 #: www/templates/elevate/index.html:190
 msgid "Is this live or does it require a reboot?"
-msgstr ""
+msgstr "이것은 라이브입니까 아니면 재부팅이 필요합니까?"
 
 #: www/templates/elevate/index.html:195
 msgid "Migrations will require your system to reboot twice."
@@ -385,7 +391,7 @@ msgstr "마이그레이션하려면 시스템을 두 번 재부팅해야 합니�
 
 #: www/templates/elevate/index.html:203
 msgid "What does the Package Evolution Service do?"
-msgstr ""
+msgstr "패키지 레볼루션 서비스는 무엇을 합니까?"
 
 #: www/templates/elevate/index.html:208
 msgid ""
@@ -407,13 +413,15 @@ msgstr ""
 msgid ""
 "Red Hat offers a data set which is non-freely licensed. Are you using this "
 "same data set?"
-msgstr ""
+msgstr "레드햇은 무료로 라이센스가 부여되지 않은 데이터 세트를 제공합니다. 이 동일한 "
+"데이터 세트를 사용하고 있습니까?"
 
 #: www/templates/elevate/index.html:225
 msgid ""
 "No. We respect Red Hat’s work and our initial data set was provided by the "
 "AlmaLinux Foundation and contributions from Oracle."
-msgstr ""
+msgstr "아니요. 우리는 레드햇의 작업을 존중하며 초기 데이터 세트는 알마리눅스 재단과 "
+"오라클의 기여에서 제공되었습니다."
 
 #: www/templates/elevate/index.html:234
 msgid "What license is your metadata under?"
@@ -428,16 +436,15 @@ msgid "Why are you supporting migration to other distributions?"
 msgstr "다른 배포판으로의 마이그레이션을 지원하는 이유는 무엇입니까?"
 
 #: www/templates/elevate/index.html:252
-#, fuzzy
 msgid ""
 "The CentOS ecosystem is a very large and diverse community. We’ve developed "
 "this project in good faith in the hope that everyone in the community can "
 "use and contribute to, no matter which distro you prefer. That’s the open "
 "source way."
 msgstr ""
-"CentOS 생태계는 매우 크고 다양한 커뮤니티입니다. 우리는 당신이 선호하는 배포"
-"에 상관없이 지역 사회의 모든 사람들이 사용하고 기여할 수 있기를 바라며 이 프"
-"로젝트를 성실하게 개발했습니다. 이것이 오픈 소스 방식입니다."
+"센트OS 생태계는 매우 크고 다양한 커뮤니티입니다. 우리는 당신이 선호하는 "
+"배포에 상관없이 지역 사회의 모든 사람들이 사용하고 기여할 수 있기를 바라며 "
+"이 프로젝트를 성실하게 개발했습니다. 이것이 오픈 소스 방식입니다."
 
 #: www/templates/foundation/members/index.html:6
 #: www/templates/foundation/members/index.html:7
@@ -445,20 +452,19 @@ msgid "AlmaLinux OS Foundation - membership"
 msgstr "AlmaLinux OS 재단 - 가입"
 
 #: www/templates/foundation/members/index.html:21
-#, fuzzy
 msgid "Join the AlmaLinux OS Foundation"
-msgstr "AlmaLinux OS 재단에 가입"
+msgstr "알마리눅스 OS 재단에 가입"
 
 #: www/templates/foundation/members/index.html:25
 msgid ""
 "Be heard! Join the AlmaLinux Foundation as a Member or Sponsor. Own and vote "
 "on shaping the future of AlmaLinux OS!"
-msgstr ""
+msgstr "들어주세요! 알마리눅스 재단에 회원 또는 후원자로 가입하세요. 알마리눅스 OS의 "
+"미래를 형성하기 위해 소유하고 투표해주세요!"
 
 #: www/templates/foundation/members/index.html:32
-#, fuzzy
 msgid "Apply for membership"
-msgstr "멤버십 신청"
+msgstr "회원가입"
 
 #: www/templates/foundation/members/index.html:41
 msgid ""
@@ -470,13 +476,19 @@ msgid ""
 "sponsors and service providers to the community, as well as official "
 "sponsors for the project."
 msgstr ""
+"알마리눅스 재단은 영원히 무료로 제공되는 엔터프라이즈급 리눅스 배포판인 "
+"알마리눅스 OS의 배후에 있는 단체입니다. 회원으로서 귀하는 프로젝트 방향에 "
+"대한 목소리를 내고 다른 회원들이 이사회에 투표하고 투표할 수 있습니다. "
+"프로젝트 기여자, 미러 유지 관리자/후원자, 커뮤니티 서비스 제공자, 프로젝트의 "
+"공식 후원자를 포함하여 회원이 되는 데 사용할 수 있는 여러 경로가 있습니다."
 
 #: www/templates/foundation/members/index.html:51
 msgid ""
 "The merit of each application will be reviewed on a case-by-case basis by "
 "the Board or by a committee appointed for this purpose, according to the "
 "Bylaws established by the Board."
-msgstr ""
+msgstr "각 신청서의 장점은 이사회가 수립한 내규에 따라 이사회 또는 이 목적을 위해 "
+"임명된 위원회에서 사례별로 검토합니다."
 
 #: www/templates/foundation/members/index.html:63
 msgid "Join AlmaLinux OS Foundation"
@@ -492,6 +504,9 @@ msgid ""
 "AlmaLinux OS, provides services to the AlmaLinux OS community or otherwise "
 "supports the AlmaLinux OS."
 msgstr ""
+"알마리눅스 OS를 사용하거나, 알마리눅스 OS에 기여하거나, 알마리눅스 OS "
+"커뮤니티에 서비스를 제공하거나, 알마리눅스 OS를 지원하는 모든 사람을 위한 "
+"개별 응용 프로그램입니다."
 
 #: www/templates/foundation/members/index.html:81
 #: www/templates/foundation/members/index.html:103
@@ -501,7 +516,7 @@ msgstr "적용"
 
 #: www/templates/foundation/members/index.html:90
 msgid "Mirror Member"
-msgstr ""
+msgstr "미러 회원"
 
 #: www/templates/foundation/members/index.html:93
 msgid ""
@@ -509,15 +524,17 @@ msgid ""
 "distribution. Only one member application per individual or entity will be "
 "accepted, irrespective of contributed number of mirrors."
 msgstr ""
+"콘텐츠 배포를 위해 프로젝트에 미러를 제공하는 개인 또는 법인입니다. 미러의 "
+"기여 수에 관계없이 개인 또는 법인당 하나의 회원 신청만 허용됩니다."
 
 #: www/templates/foundation/members/index.html:111
 msgid "Sponsor Member"
-msgstr ""
+msgstr "후원 회원"
 
 #: www/templates/foundation/members/index.html:113
 msgid ""
 "Entities who wish to contribute funding for the project through sponsorship."
-msgstr ""
+msgstr "후원을 통해 프로젝트 자금을 기부하고자 하는 단체입니다."
 
 #: www/templates/foundation/members/index.html:131
 msgid "Do you have membership related questions?"
@@ -529,7 +546,7 @@ msgstr "연락처"
 
 #: www/templates/foundation/members/index.html:141
 msgid "Board of Directors"
-msgstr ""
+msgstr "이사회"
 
 #: www/templates/index.html:6
 msgid "AlmaLinux OS - Forever-Free Enterprise-Grade Operating System"
@@ -562,7 +579,8 @@ msgstr "통합"
 msgid ""
 "Our GitHub organization contains source code and tools used to build "
 "AlmaLinux OS and related infrastructure."
-msgstr ""
+msgstr "깃허브 조직에는 알마리눅스 OS 및 관련 인프라를 구축하는 데 사용되는 소스 "
+"코드와 도구가 포함되어 있습니다."
 
 #: www/templates/index.html:81
 msgid "Explore"
@@ -572,7 +590,8 @@ msgstr "탐색"
 msgid ""
 "Join our vibrant Reddit community, interact with other AlmaLinux OS users, "
 "receive updates, find and provide help."
-msgstr ""
+msgstr "활기찬 레딧 커뮤니티에 가입하고, 다른 알마리눅스 OS 사용자와 교류하고, "
+"업데이트를 받고, 도움을 찾고 제공하세요."
 
 #: www/templates/index.html:101
 msgid "Join"
@@ -586,11 +605,12 @@ msgstr "커뮤니티 채팅"
 msgid ""
 "Join a real time discussion with other AlmaLinux OS community members, "
 "governance team and AlmaLinux OS developers."
-msgstr ""
+msgstr "다른 알마리눅스 OS 커뮤니티 구성원, 관리팀 및 알마리눅스 OS 개발자와 실시간 "
+"토론에 참여하세요."
 
 #: www/templates/index.html:121
 msgid "Engage"
-msgstr ""
+msgstr "참여"
 
 #: www/templates/index.html:129
 msgid "Community forums"
@@ -619,6 +639,9 @@ msgid ""
 "release. AlmaLinux OS is a 1:1 binary compatible clone of RHEL&reg; guided "
 "and built by the community."
 msgstr ""
+"알마리눅스 OS는 센트OS 리눅스 안정 릴리스의 중단으로 인해 남은 공백을 채우는 "
+"오픈 소스 커뮤니티 중심 리눅스 운영 체제입니다. 알마리눅스 OS는 커뮤니티에서 "
+"안내하고 구축한 RHEL&reg;의 1:1 바이너리 호환 클론입니다."
 
 #: www/templates/index.html:162
 msgid ""
@@ -640,11 +663,11 @@ msgstr ""
 
 #: www/templates/index.html:183
 msgid "Backed by"
-msgstr ""
+msgstr "지원"
 
 #: www/templates/index.html:207
 msgid "Production-ready"
-msgstr ""
+msgstr "제작 준비"
 
 #: www/templates/index.html:209
 msgid ""
@@ -658,7 +681,7 @@ msgstr ""
 
 #: www/templates/index.html:220
 msgid "Fully supported, always free"
-msgstr ""
+msgstr "완전한 지원, 항상 무료"
 
 #: www/templates/index.html:222
 msgid ""
@@ -672,7 +695,7 @@ msgstr ""
 
 #: www/templates/index.html:233
 msgid "Effortless to switch to"
-msgstr ""
+msgstr "쉽게 전환"
 
 #: www/templates/index.html:235
 #, python-format
@@ -716,14 +739,16 @@ msgid ""
 "By filling this form you agree to be contacted by AlmaLinux OS Foundation "
 "regarding your request. You can unsubscribe at any time."
 msgstr ""
+"이 양식을 작성하면 귀하의 요청과 관련하여 알마리눅스 OS 재단의 요청에 "
+"동의하는 것입니다. 언제든지 구독을 취소할 수 있습니다."
 
 #: www/templates/index.html:358
 msgid "AlmaLinux OS in the Press"
-msgstr ""
+msgstr "언론에 보도된 알마리눅스 OS"
 
 #: www/templates/page/page.html:31
 msgid "Published"
-msgstr ""
+msgstr "공개"
 
 #: www/templates/showcase/index.html:6
 msgid "AlmaLinux OS feature showcase"
