@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-16 21:25+0000\n"
-"PO-Revision-Date: 2022-08-17 01:17+0000\n"
-"Last-Translator: M7md M7rm <gamerghost545@gmail.com>\n"
+"PO-Revision-Date: 2022-09-02 23:15+0000\n"
+"Last-Translator: Xyx S <sec.xyx@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/almalinux/"
 "website-backend/ar/>\n"
 "Language: ar\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 4.14-dev\n"
+"X-Generator: Weblate 4.14.1-dev\n"
 
 #: commons/templatetags/motd.py:39
 msgid "Read more"
@@ -26,7 +26,7 @@ msgstr "اقرأ المزيد"
 
 #: www/templates/404.html:4
 msgid "404 Not Found - AlmaLinux OS"
-msgstr "٤٠٤ الصفحة غير موجودة - نظام الما لينكس"
+msgstr "٤٠٤ الصفحة غير موجودة - AlmaLinux OS"
 
 #: www/templates/404.html:6 www/templates/blog/index.html:10
 #: www/templates/blog/post.html:10 www/templates/index.html:8
@@ -52,7 +52,7 @@ msgstr "المصادر"
 
 #: www/templates/_partial/footer.html:13 www/templates/_partial/navbar.html:31
 msgid "Wiki"
-msgstr "موسوعة"
+msgstr "موسوعة Wiki"
 
 #: www/templates/_partial/footer.html:15
 msgid "Bugs"
@@ -64,7 +64,7 @@ msgstr "مخزن"
 
 #: www/templates/_partial/footer.html:17
 msgid "Downloads"
-msgstr "تحميلات"
+msgstr "تنزيلات"
 
 #: www/templates/_partial/footer.html:18 www/templates/_partial/navbar.html:57
 msgid "Membership"
@@ -291,6 +291,10 @@ msgid ""
 "submit new data sets for packages. Users and maintainers can both utilize "
 "the PES to help make migrations smooth and easy."
 msgstr ""
+"القلب النابض لـ ELevate هو<a href=\"%(pes_link)s\">خدمة تطوير الحزمة</a>(PES)"
+"الذي يسمح لك بتنزيل مجموعات بيانات جديدة للحزم وتخصيصها وحتى إرسالها. يمكن "
+"للمستخدمين والمشرفين على حد سواء استخدام PES للمساعدة في جعل عمليات الترحيل "
+"سلسة وسهلة."
 
 #: www/templates/elevate/index.html:93
 msgid "Community-wide Project"
@@ -302,6 +306,9 @@ msgid ""
 "for the whole ecosystem, not just AlmaLinux. ELevate supports migrating to/"
 "from other distributions and is open for all to contribute to and enhance."
 msgstr ""
+"ELevate تم تطوير بطريقة حيادية التوزيع وتم بناؤه كأداة للنظام البيئي بأكمله ،"
+" وليس فقط AlmaLinux. ELevate يدعم الترحيل من / إلى التوزيعات الأخرى وهو "
+"مفتوح للجميع للمساهمة فيها وتحسينها."
 
 #: www/templates/elevate/index.html:107
 msgid "FAQ"
@@ -318,6 +325,9 @@ msgid ""
 "Leapp framework with a community created library and service for the "
 "migration metadata set required for it."
 msgstr ""
+"ELevate هو مشروع يهدف إلى توفير القدرة على الترحيل بين الإصدارات الرئيسية من "
+"RHEL-based التوزيعات من 7.x to 8.x. فهو يجمع بين إطار عمل Red Hat's Leapp "
+"ومكتبة وخدمة مجتمع أنشأها لمجموعة بيانات تعريف الترحيل المطلوبة له."
 
 #: www/templates/elevate/index.html:127
 msgid "This looks awesome. How can I contribute?"
@@ -331,6 +341,10 @@ msgid ""
 "%(github_link)s</a> and you can add/edit/interact with package metadata at "
 "<a href=\"%(pes_link)s\">%(pes_link)s</a>."
 msgstr ""
+"انضم إلينا أولاً في<a href=\"%(chat_link)s\">#migration</a>القناة الأكثر "
+"أهمية. يمكنك العثور على الأداة الكود هنا:<a href=\"%(github_link)s\""
+">%(github_link)s</a> ويمكنك إضافة / تعديل / التفاعل مع البيانات الوصفية "
+"للحزمة على<a href=\"%(pes_link)s\">%(pes_link)s</a>."
 
 #: www/templates/elevate/index.html:143
 msgid "Is this ready for production?"
@@ -390,32 +404,38 @@ msgid ""
 "to improve the data by adding new actions or even create a custom dataset "
 "for packages from third-party or private repositories."
 msgstr ""
+"حزمة خدمة التطوير تخزين البيانات تعريف ترحيل الحزمة. تجيب البيانات الوصفية "
+"على أسئلة حول كيفية تطور الحزم بين إصدارات التوزيع الرئيسية. تدعم PES عدة "
+"فئات من القواعد للحزم مثل الأضافة والإزالة وإعادة التسمية والتقسيم والدمج "
+"وما إلى ذلك. تتيح الخدمة أيضًا للجميع تحسين البيانات عن طريق إضافة إجراءات "
+"جديدة أو حتى إنشاء مجموعة بيانات مخصصة للحزم من طرف ثالث أو مستودعات خاصة."
 
 #: www/templates/elevate/index.html:220
 msgid ""
 "Red Hat offers a data set which is non-freely licensed. Are you using this "
 "same data set?"
 msgstr ""
+"تقدم Red Hat مجموعة بيانات غير مرخصة بحرية. هل تستخدم نفس مجموعة البيانات؟"
 
 #: www/templates/elevate/index.html:225
 msgid ""
 "No. We respect Red Hat’s work and our initial data set was provided by the "
 "AlmaLinux Foundation and contributions from Oracle."
 msgstr ""
-"لا . نحن نحترم عمل القباعه الحمراء و عملنا الاولي كان كاملا من منظمه "
-"AlmaLinux و نحصل على دعم من اوراكل -Oracle-."
+"لا ، نحن نحترم عمل Red Hat وقد تم توفير مجموعة البيانات الأولية الخاصة بنا "
+"من قبل مؤسسة AlmaLinux ومساهمات من Oracle."
 
 #: www/templates/elevate/index.html:234
 msgid "What license is your metadata under?"
-msgstr ""
+msgstr "ما هو الترخيص الخاص بك البيانات الوصفية؟"
 
 #: www/templates/elevate/index.html:239
 msgid "The metadata is provided under an Apache License."
-msgstr ""
+msgstr "يتم توفير البيانات الوصفية بموجب ترخيص Apache."
 
 #: www/templates/elevate/index.html:247
 msgid "Why are you supporting migration to other distributions?"
-msgstr ""
+msgstr "لماذا تدعم الهجرة إلى التوزيعات الأخرى؟"
 
 #: www/templates/elevate/index.html:252
 msgid ""
@@ -424,27 +444,30 @@ msgid ""
 "use and contribute to, no matter which distro you prefer. That’s the open "
 "source way."
 msgstr ""
+"يعد نظام CentOS البيئي مجتمعًا كبيرًا ومتنوعًا. لقد طورنا هذا المشروع بحسن "
+"نية على أمل أن يتمكن كل فرد في المجتمع من استخدامه والمساهمة فيه ، بغض النظر "
+"عن التوزيعات التي تفضلها. هذه هي الطريقة مفتوحة المصدر."
 
 #: www/templates/foundation/members/index.html:6
 #: www/templates/foundation/members/index.html:7
 msgid "AlmaLinux OS Foundation - membership"
-msgstr "مؤسسة AlmaLinux OS - اشتراك"
+msgstr "مؤسسة AlmaLinux OS - العضوية"
 
 #: www/templates/foundation/members/index.html:21
 msgid "Join the AlmaLinux OS Foundation"
-msgstr "الانظمة الى مؤسسة AlmaLinux OS"
+msgstr "انضم إلى مؤسسة AlmaLinux OS"
 
 #: www/templates/foundation/members/index.html:25
 msgid ""
 "Be heard! Join the AlmaLinux Foundation as a Member or Sponsor. Own and vote "
 "on shaping the future of AlmaLinux OS!"
 msgstr ""
-"اجعل من نفسك مسموعا! أنضم الى مؤسسه AlmaLinux من قبل مشترك او داعم. امتلك و "
-"صوت بتشكيل مستقبل AlmaLinux OS!"
+"أن تسمع! انضم إلى مؤسسة AlmaLinux كعضو أو راعٍ. امتلك وصوّت على تشكيل مستقبل "
+"نظام التشغيل AlmaLinux OS!"
 
 #: www/templates/foundation/members/index.html:32
 msgid "Apply for membership"
-msgstr "الأشتراك"
+msgstr "التقديم على العضوية"
 
 #: www/templates/foundation/members/index.html:41
 msgid ""
@@ -456,6 +479,12 @@ msgid ""
 "sponsors and service providers to the community, as well as official "
 "sponsors for the project."
 msgstr ""
+"مؤسسة AlmaLinux هي الكيان الذي يقف وراء نظام التشغيل AlmaLinux OS ، وهو "
+"توزيع Linux من فئة المؤسسات مجاني إلى الأبد. بصفتك عضوًا ، سيكون لديك صوت في "
+"اتجاه المشروع ، ويمكنك التصويت لصالح مجلس الإدارة والتصويت فيه من قبل أعضاء "
+"آخرين. هناك العديد من المسارات المتاحة لتصبح عضوًا ، بما في ذلك المساهمون في "
+"المشروع ، ورعاة / صيانة المرآة ومقدمي الخدمات للمجتمع ، بالإضافة إلى الرعاة "
+"الرسميين للمشروع."
 
 #: www/templates/foundation/members/index.html:51
 msgid ""
@@ -463,14 +492,16 @@ msgid ""
 "the Board or by a committee appointed for this purpose, according to the "
 "Bylaws established by the Board."
 msgstr ""
+"ستتم مراجعة ميزة كل طلب على أساس كل حالة على حدة من قبل مجلس الإدارة أو من "
+"قبل لجنة معينة لهذا الغرض ، وفقًا للوائح التي وضعها مجلس الإدارة."
 
 #: www/templates/foundation/members/index.html:63
 msgid "Join AlmaLinux OS Foundation"
-msgstr ""
+msgstr "انضم إلى مؤسسة AlmaLinux OS"
 
 #: www/templates/foundation/members/index.html:69
 msgid "Contributor Member"
-msgstr ""
+msgstr "عضو مساهم"
 
 #: www/templates/foundation/members/index.html:72
 msgid ""
@@ -478,6 +509,8 @@ msgid ""
 "AlmaLinux OS, provides services to the AlmaLinux OS community or otherwise "
 "supports the AlmaLinux OS."
 msgstr ""
+"تطبيق فردي لأي شخص يستخدم نظام AlmaLinux OS ، أو يساهم في نظام AlmaLinux OS ،"
+" أو يقدم خدمات لمجتمع AlmaLinux OS أو يدعم نظام AlmaLinux OS بطريقة أخرى."
 
 #: www/templates/foundation/members/index.html:81
 #: www/templates/foundation/members/index.html:103
@@ -487,7 +520,7 @@ msgstr "التقديم"
 
 #: www/templates/foundation/members/index.html:90
 msgid "Mirror Member"
-msgstr "عضو المرءاه"
+msgstr "عضو المرآة"
 
 #: www/templates/foundation/members/index.html:93
 msgid ""
@@ -495,35 +528,37 @@ msgid ""
 "distribution. Only one member application per individual or entity will be "
 "accepted, irrespective of contributed number of mirrors."
 msgstr ""
+"فرد أو كيان يوفر للمشروع مرآة (مرايا) لتوزيع المحتوى. سيتم قبول طلب عضو واحد "
+"فقط لكل فرد أو كيان ، بغض النظر عن عدد المرايا المساهمة."
 
 #: www/templates/foundation/members/index.html:111
 msgid "Sponsor Member"
-msgstr ""
+msgstr "عضو راعي"
 
 #: www/templates/foundation/members/index.html:113
 msgid ""
 "Entities who wish to contribute funding for the project through sponsorship."
-msgstr ""
+msgstr "الجهات التي ترغب في المساهمة في تمويل المشروع من خلال الرعاية."
 
 #: www/templates/foundation/members/index.html:131
 msgid "Do you have membership related questions?"
-msgstr ""
+msgstr "هل لديك أسئلة متعلقة بالعضوية؟"
 
 #: www/templates/foundation/members/index.html:132
 msgid "Contact us"
-msgstr "تواصل معنا"
+msgstr "اتصل بنا"
 
 #: www/templates/foundation/members/index.html:141
 msgid "Board of Directors"
-msgstr "لوحه الداعمين او المخرجين"
+msgstr "مجموعة المخرجين"
 
 #: www/templates/index.html:6
 msgid "AlmaLinux OS - Forever-Free Enterprise-Grade Operating System"
-msgstr "AlmaLinux OS للابد - مجانا للشركات - نظام تشغيل من الدرجه الاولى"
+msgstr "نظام التشغيل AlmaLinux - نظام تشغيل مجاني للأبد من فئة المؤسسات"
 
 #: www/templates/index.html:34
 msgid "Free Linux OS for the community, by the community"
-msgstr "نظام لينكس المجاني من المجتمع , للمجتمع"
+msgstr "نظام تشغيل Linux مجاني للمجتمع ، من قبل المجتمع"
 
 #: www/templates/index.html:37
 msgid ""
@@ -532,32 +567,37 @@ msgid ""
 "grade platform. AlmaLinux OS is 1:1 binary compatible with RHEL&reg; and pre-"
 "Stream CentOS."
 msgstr ""
+"توزيع لينوكس للمؤسسات مفتوح المصدر مملوك ومدار من قبل المجتمع ومجاني إلى "
+"الأبد ، يركز على الاستقرار طويل المدى ، ويوفر منصة إنتاج قوية. نظام "
+"AlmaLinux OS هو نظام ثنائي 1: 1 متوافق مع RHEL & reg؛ وقبل دفق CentOS."
 
 #: www/templates/index.html:47
 msgid "Contribute"
-msgstr "بادر معنا"
+msgstr "المساهمة"
 
 #: www/templates/index.html:57
 msgid "Migrate"
-msgstr "انتقل -هاجر-"
+msgstr "ترحيل"
 
 #: www/templates/index.html:73
 msgid ""
 "Our GitHub organization contains source code and tools used to build "
 "AlmaLinux OS and related infrastructure."
 msgstr ""
+"تحتوي مؤسسة GitHub الخاصة بنا على التعليمات البرمجية المصدر والأدوات "
+"المستخدمة لبناء نظام التشغيل AlmaLinux والبنية التحتية ذات الصلة."
 
 #: www/templates/index.html:81
 msgid "Explore"
-msgstr "اكتشف"
+msgstr "استكشاف"
 
 #: www/templates/index.html:93
 msgid ""
 "Join our vibrant Reddit community, interact with other AlmaLinux OS users, "
 "receive updates, find and provide help."
 msgstr ""
-"انضم الى مجتمع الريديت , و تحاور مع بقيه مستخدمي AlmaLinux OS , و احصل على "
-"اخر الاخبار , واكتشف وبادر بالمساعده."
+"انضم إلى مجتمع Reddit النابض بالحياة ، وتفاعل مع مستخدمي نظام التشغيل "
+"AlmaLinux OS الآخرين ، وتلقي التحديثات ، واعثر على المساعدة وقدمها."
 
 #: www/templates/index.html:101
 msgid "Join"
@@ -565,27 +605,31 @@ msgstr "أنضم"
 
 #: www/templates/index.html:110
 msgid "Community chat"
-msgstr "محادثه المجتمع"
+msgstr "محادثة التواصل الاجتماعي"
 
 #: www/templates/index.html:113
 msgid ""
 "Join a real time discussion with other AlmaLinux OS community members, "
 "governance team and AlmaLinux OS developers."
 msgstr ""
+"انضم إلى مناقشة في الوقت الفعلي مع أعضاء مجتمع AlmaLinux OS الآخرين وفريق "
+"الحوكمة ومطوري نظام AlmaLinux OS."
 
 #: www/templates/index.html:121
 msgid "Engage"
-msgstr ""
+msgstr "ملتزم"
 
 #: www/templates/index.html:129
 msgid "Community forums"
-msgstr ""
+msgstr "منتديات إجتماعية"
 
 #: www/templates/index.html:131
 msgid ""
 "Ask questions, get answers and contribute community support to others in "
 "AlmaLinux OS community and developers alike."
 msgstr ""
+"اطرح الأسئلة واحصل على إجابات وساهم في دعم المجتمع للآخرين في مجتمع ومطوري "
+"AlmaLinux OS على حدٍ سواء."
 
 #: www/templates/index.html:139
 msgid "Discover"
@@ -593,7 +637,7 @@ msgstr "اكتشف"
 
 #: www/templates/index.html:153
 msgid "About AlmaLinux OS"
-msgstr ""
+msgstr "حول نظام AlmaLinux OS"
 
 #: www/templates/index.html:155
 msgid ""
@@ -602,6 +646,9 @@ msgid ""
 "release. AlmaLinux OS is a 1:1 binary compatible clone of RHEL&reg; guided "
 "and built by the community."
 msgstr ""
+"يعد نظام AlmaLinux OS نظام تشغيل Linux مفتوح المصدر يحركه المجتمع ويسد "
+"الفجوة التي خلفها توقف إصدار CentOS Linux المستقر. يعد نظام AlmaLinux OS "
+"استنساخًا ثنائيًا متوافقًا بنسبة 1: 1 من RHEL & reg؛ بتوجيه وبناء المجتمع."
 
 #: www/templates/index.html:162
 msgid ""
@@ -609,20 +656,25 @@ msgid ""
 "sponsorship from CloudLinux Inc and support from other sponsors. Ongoing "
 "development efforts are governed by the members of the community."
 msgstr ""
+"باعتباره نظام تشغيل مستقل ومجاني تمامًا ، يتمتع نظام التشغيل AlmaLinux OS "
+"برعاية سنوية قدرها مليون دولار من CloudLinux Inc وبدعم من الرعاة الآخرين. "
+"يخضع جهود التنمية المستمرة لأفراد المجتمع."
 
 #: www/templates/index.html:169
 msgid ""
 "The AlmaLinux OS Foundation is a 501(c)(6) non-profit created for the "
 "benefit of the AlmaLinux OS community."
 msgstr ""
+"مؤسسة AlmaLinux OS هي مؤسسة غير ربحية 501 (c) (6) تم إنشاؤها لصالح مجتمع "
+"AlmaLinux OS."
 
 #: www/templates/index.html:183
 msgid "Backed by"
-msgstr "من وراءنا"
+msgstr "المدعومة من"
 
 #: www/templates/index.html:207
 msgid "Production-ready"
-msgstr ""
+msgstr "جاهز للإنتاج"
 
 #: www/templates/index.html:209
 msgid ""
@@ -630,10 +682,13 @@ msgid ""
 "distribution with regular releases that come with a long support windows. "
 "You can rely on AlmaLinux OS to run any and every critical workloads."
 msgstr ""
+"يعد نظام AlmaLinux OS نظام تشغيل خادم على مستوى المؤسسات وتوزيع Linux ثابت "
+"مع إصدارات منتظمة تأتي مع نوافذ دعم طويلة. يمكنك الاعتماد على نظام التشغيل "
+"AlmaLinux OS لتشغيل أي وكل أحمال عمل حرجة."
 
 #: www/templates/index.html:220
 msgid "Fully supported, always free"
-msgstr ""
+msgstr "الدعم كامل ، مجاني دائمًا"
 
 #: www/templates/index.html:222
 msgid ""
@@ -641,10 +696,13 @@ msgid ""
 "with investments and long support commitments to ensure the distribution is "
 "free of limitations, fees and charges."
 msgstr ""
+"يدعم أعضاء مؤسسة AlmaLinux OS Foundation والجهات الراعية والشركاء نظام "
+"التشغيل AlmaLinux OS باستثمارات والتزامات دعم طويلة لضمان أن التوزيع خالٍ من "
+"القيود والرسوم والتكاليف."
 
 #: www/templates/index.html:233
 msgid "Effortless to switch to"
-msgstr ""
+msgstr "الجهد للتبديل إلى"
 
 #: www/templates/index.html:235
 #, python-format
@@ -653,84 +711,91 @@ msgid ""
 "the case when switching from CentOS and other RHEL&reg; derivatives to "
 "AlmaLinux OS. Switching is easy - <a href=\"%(migrate_link)s\">read how.</a>"
 msgstr ""
+"عادةً ما يكون تبديل التوزيعات مكلفًا ويستغرق وقتًا طويلاً ، ولكن هذا ليس هو "
+"الحال عند التبديل من CentOS وغيرهاRHEL&reg; مشتقات لنظام AlmaLinux OS. "
+"التبديل سهل -<a href=\"%(migrate_link)s\">read how.</a>"
 
 #: www/templates/index.html:260
 msgid "Commercial Support"
-msgstr ""
+msgstr "الدعم التجاري"
 
 #: www/templates/index.html:281
 msgid "Answers to Key Questions"
-msgstr ""
+msgstr "الإجابات على الأسئلة الرئيسية"
 
 #: www/templates/index.html:315
 msgid "Stay updated!"
-msgstr "ابقاء مطلعا !"
+msgstr "ابق مطلع على التحديثات!"
 
 #: www/templates/index.html:318
 msgid ""
 "Subscribe to our newsletter and never miss out on the latest in AlmaLinux OS "
 "development!"
 msgstr ""
+"اشترك في النشرة الإخبارية لدينا ولا يفوتك آخر التحديثات في تطوير نظام "
+"التشغيل AlmaLinux OS!"
 
 #: www/templates/index.html:332
 msgid "Your email"
-msgstr ""
+msgstr "بريدك الالكتروني"
 
 #: www/templates/index.html:336
 msgid "Subscribe"
-msgstr ""
+msgstr "الإشتراك"
 
 #: www/templates/index.html:343
 msgid ""
 "By filling this form you agree to be contacted by AlmaLinux OS Foundation "
 "regarding your request. You can unsubscribe at any time."
 msgstr ""
+"من خلال ملء هذا النموذج ، فإنك توافق على أن يتم الاتصال بك من قبل مؤسسة "
+"AlmaLinux OS بخصوص طلبك. يمكنك إلغاء الاشتراك في أي وقت."
 
 #: www/templates/index.html:358
 msgid "AlmaLinux OS in the Press"
-msgstr ""
+msgstr "نظام التشغيل AlmaLinux في الصحافة"
 
 #: www/templates/page/page.html:31
 msgid "Published"
-msgstr ""
+msgstr "تم النشر"
 
 #: www/templates/showcase/index.html:6
 msgid "AlmaLinux OS feature showcase"
-msgstr ""
+msgstr "عرض ميزات نظام التشغيل AlmaLinux OS"
 
 #: www/templates/showcase/index.html:7
 msgid "Feature showcase"
-msgstr ""
+msgstr "عرض الميزة"
 
 #: www/templates/subscribe_post.html:6
 msgid "Mailing list subscription - AlmaLinux OS"
-msgstr ""
+msgstr "الاشتراك في القائمة البريدية - AlmaLinux OS"
 
 #: www/templates/subscribe_post.html:16
 msgid "Something went wrong..."
-msgstr ""
+msgstr "هناك خطأ ما..."
 
 #: www/templates/subscribe_post.html:22 www/templates/subscribe_post.html:33
 msgid "Return home"
-msgstr ""
+msgstr "العودة للصفحة الرئيسية"
 
 #: www/templates/subscribe_post.html:27
 msgid "Thank you!"
-msgstr ""
+msgstr "شكرًا لك!"
 
 #: www/templates/subscribe_post.html:30
 msgid ""
 "You have successfully subscribed to AlmaLinux OS announcement mailing list!"
-msgstr ""
+msgstr "لقد اشتركت بنجاح في القائمة البريدية لإعلان نظام AlmaLinux OS!"
 
 #: www/views.py:54
 msgid "Email address is not valid"
-msgstr ""
+msgstr "عنوان البريد الإلكتروني غير صالح"
 
 #: www/views.py:78
 msgid "Failed to subscribe to mailing list, please try again later"
-msgstr ""
+msgstr "فشل الاشتراك في القائمة البريدية ، يرجى المحاولة مرة أخرى في وقت لاحق"
 
 #: www/views.py:80
 msgid "You are already subscribed to this mailing list!"
-msgstr ""
+msgstr "أنت مشترك بالفعل في هذه القائمة البريدية!"
