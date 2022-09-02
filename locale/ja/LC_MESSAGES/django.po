@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-16 21:25+0000\n"
-"PO-Revision-Date: 2021-12-18 16:53+0000\n"
-"Last-Translator: Kyotaro Iijima <kyotaro.eyes@gmail.com>\n"
+"PO-Revision-Date: 2022-09-02 23:15+0000\n"
+"Last-Translator: Xyx S <sec.xyx@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/almalinux/"
 "website-backend/ja/>\n"
 "Language: ja\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.10\n"
+"X-Generator: Weblate 4.14.1-dev\n"
 
 #: commons/templatetags/motd.py:39
 msgid "Read more"
@@ -25,7 +25,7 @@ msgstr "もっと見る"
 
 #: www/templates/404.html:4
 msgid "404 Not Found - AlmaLinux OS"
-msgstr "404 ページが見つかりません - AlmaLinux OS"
+msgstr "404 見つかりません - AlmaLinux OS"
 
 #: www/templates/404.html:6 www/templates/blog/index.html:10
 #: www/templates/blog/post.html:10 www/templates/index.html:8
@@ -39,7 +39,7 @@ msgstr ""
 
 #: www/templates/404.html:13
 msgid "404 Not Found"
-msgstr "404 ページが見つかりません"
+msgstr "404 お探しのページが見つかりませんでした"
 
 #: www/templates/404.html:16
 msgid "Sorry, but the page you were trying to access could not be found."
