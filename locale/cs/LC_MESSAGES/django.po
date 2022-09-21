@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-16 21:25+0000\n"
-"PO-Revision-Date: 2022-05-12 09:16+0000\n"
-"Last-Translator: Vitezslav Kosina <vitezslav@kosina.cz>\n"
+"PO-Revision-Date: 2022-09-21 07:17+0000\n"
+"Last-Translator: David Doubek <David.Doubek42@gmail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/almalinux/"
 "website-backend/cs/>\n"
 "Language: cs\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n "
 "<= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
-"X-Generator: Weblate 4.13-dev\n"
+"X-Generator: Weblate 4.14.1\n"
 
 #: commons/templatetags/motd.py:39
 msgid "Read more"
@@ -275,7 +275,7 @@ msgid ""
 "based distributions from 7.x to 8.x. Preserve your applications, your data, "
 "and your sanity. Run the most recent version of the OS and software you need."
 msgstr ""
-"Ttot nebylo doposud možné. Jednoduše migrujte mezi hlavními verzemi "
+"Toto nebylo doposud možné. Jednoduše migrujte mezi hlavními verzemi "
 "distribucí založených na RHEL z verze 7.x na 8.x. Zachovejte si své "
 "aplikace, data i zdravý rozum. Používejte nejnovější verzi operačního "
 "systému a softwaru, který potřebujete."
@@ -292,10 +292,14 @@ msgid ""
 "submit new data sets for packages. Users and maintainers can both utilize "
 "the PES to help make migrations smooth and easy."
 msgstr ""
+"Srdcem ELevate je <a href=\"%(pes_link)s\">Služba pro vývoj balíčků</a> (PES)"
+", která umožňuje stahovat, přizpůsobovat a dokonce odesílat nové datové sady "
+"pro balíčky. PES mohou využívat jak uživatelé, tak správci, aby pomohli "
+"hladké a snadné migraci."
 
 #: www/templates/elevate/index.html:93
 msgid "Community-wide Project"
-msgstr ""
+msgstr "Projekt v rámci celé komunity"
 
 #: www/templates/elevate/index.html:96
 msgid ""
@@ -303,14 +307,17 @@ msgid ""
 "for the whole ecosystem, not just AlmaLinux. ELevate supports migrating to/"
 "from other distributions and is open for all to contribute to and enhance."
 msgstr ""
+"ELevate je vyvíjen s ohledem na distribuce a je vytvořen jako nástroj pro "
+"celý ekosystém, nejen pro AlmaLinux. ELevate podporuje migraci z/do jiných "
+"distribucí a je otevřený všem, kteří do něj mohou přispívat a vylepšovat jej."
 
 #: www/templates/elevate/index.html:107
 msgid "FAQ"
-msgstr ""
+msgstr "ČASTO KLADENÉ DOTAZY"
 
 #: www/templates/elevate/index.html:112
 msgid "What is ELevate?"
-msgstr ""
+msgstr "Co je to ELevate?"
 
 #: www/templates/elevate/index.html:117
 msgid ""
@@ -319,10 +326,14 @@ msgid ""
 "Leapp framework with a community created library and service for the "
 "migration metadata set required for it."
 msgstr ""
+"ELevate je projekt, jehož cílem je poskytnout možnost migrace mezi hlavními "
+"verzemi distribucí založených na RHEL od verze 7.x do 8.x. Kombinuje "
+"framework Leapp společnosti Red Hat s komunitně vytvořenou knihovnou a "
+"službou pro sadu migračních metadat, která je k tomu zapotřebí."
 
 #: www/templates/elevate/index.html:127
 msgid "This looks awesome. How can I contribute?"
-msgstr ""
+msgstr "Vypadá to úžasně. Jak mohu přispět?"
 
 #: www/templates/elevate/index.html:132
 #, python-format
@@ -332,10 +343,14 @@ msgid ""
 "%(github_link)s</a> and you can add/edit/interact with package metadata at "
 "<a href=\"%(pes_link)s\">%(pes_link)s</a>."
 msgstr ""
+"Nejprve se k nám připojte na <a href=\"%(chat_link)s\">#migration</a> kanálu "
+"Mattermost. You can find the tool code here: <a href=\"%(github_link)s\""
+">%(github_link)s</a> a můžete přidávat/upravovat/interagovat metadata "
+"balíčků na adrese <a href=\"%(pes_link)s\">%(pes_link)s</a>."
 
 #: www/templates/elevate/index.html:143
 msgid "Is this ready for production?"
-msgstr ""
+msgstr "Je to připraveno k produktivnímu užití?"
 
 #: www/templates/elevate/index.html:148
 msgid ""
@@ -344,10 +359,15 @@ msgid ""
 "surprises, we highly recommend that you test migrations scenarios in a VM or "
 "sandbox before running a migration in production."
 msgstr ""
+"YMMV.  Každé prostředí je jiné a jedinečné na základě aplikací a "
+"konfigurací. Vzhledem k tomu, že se jedná stále o vývojovou verzi, abychom "
+"předešli jakýmkoli překvapením, důrazně doporučujeme před spuštěním migrace "
+"v produkčním prostředí otestovat migrační scénáře ve virtuálním počítači "
+"nebo sandboxu."
 
 #: www/templates/elevate/index.html:158
 msgid "What operating systems does ELevate support?"
-msgstr ""
+msgstr "Jaké operační systémy ELevate podporuje?"
 
 #: www/templates/elevate/index.html:163
 msgid ""
@@ -355,6 +375,9 @@ msgid ""
 "following OS: <ul> <li>AlmaLinux OS 8</li> <li>CentOS Stream 8</li> "
 "<li>Oracle Linux 8</li> <li>Rocky Linux 8</li> </ul>"
 msgstr ""
+"V současné době ELevate poskytuje data Leapp pro migraci ze systému CentOS 7 "
+"na následující operační systém: <ul> <li>AlmaLinux OS 8</li> <li>CentOS "
+"Stream 8</li> <li>Oracle Linux 8</li> <li>Rocky Linux 8</li> </ul>"
 
 #: www/templates/elevate/index.html:177
 msgid "Will migration be \"in-place\"?"
@@ -362,19 +385,19 @@ msgstr ""
 
 #: www/templates/elevate/index.html:182
 msgid "Yes. All your data, applications and settings will be kept."
-msgstr ""
+msgstr "Ano. Všechna vaše data, aplikace a nastavení zůstanou zachována."
 
 #: www/templates/elevate/index.html:190
 msgid "Is this live or does it require a reboot?"
-msgstr ""
+msgstr "Je to live proces, nebo vyžaduje restart?"
 
 #: www/templates/elevate/index.html:195
 msgid "Migrations will require your system to reboot twice."
-msgstr ""
+msgstr "Migrace bude vyžadovat dvojí restart systému."
 
 #: www/templates/elevate/index.html:203
 msgid "What does the Package Evolution Service do?"
-msgstr ""
+msgstr "K čemu slouží služba Package Evolution?"
 
 #: www/templates/elevate/index.html:208
 msgid ""
@@ -385,30 +408,41 @@ msgid ""
 "to improve the data by adding new actions or even create a custom dataset "
 "for packages from third-party or private repositories."
 msgstr ""
+"Služba Package Evolution Service ukládá metadata o migraci balíčků. Metadata "
+"odpovídají na otázky týkající se vývoje balíčků mezi hlavními verzemi "
+"distribuce. PES podporuje několik tříd pravidel pro balíčky, jako je "
+"přidání, odebrání, přejmenování, rozdělení, sloučení atd. Služba také "
+"umožňuje každému vylepšit data přidáním nových akcí nebo dokonce vytvořit "
+"vlastní datovou sadu pro balíčky z úložišť třetích stran nebo soukromých "
+"úložišť."
 
 #: www/templates/elevate/index.html:220
 msgid ""
 "Red Hat offers a data set which is non-freely licensed. Are you using this "
 "same data set?"
 msgstr ""
+"Red Hat nabízí sadu dat, která není licencována zdarma. Používáte stejnou "
+"sadu dat?"
 
 #: www/templates/elevate/index.html:225
 msgid ""
 "No. We respect Red Hat’s work and our initial data set was provided by the "
 "AlmaLinux Foundation and contributions from Oracle."
 msgstr ""
+"Ne. Respektujeme práci společnosti Red Hat a náš počáteční soubor dat "
+"poskytla nadace AlmaLinux Foundation a příspěvky společnosti Oracle."
 
 #: www/templates/elevate/index.html:234
 msgid "What license is your metadata under?"
-msgstr ""
+msgstr "Pod jakou licencí jsou vaše metadata?"
 
 #: www/templates/elevate/index.html:239
 msgid "The metadata is provided under an Apache License."
-msgstr ""
+msgstr "Metadata jsou poskytována pod licencí Apache."
 
 #: www/templates/elevate/index.html:247
 msgid "Why are you supporting migration to other distributions?"
-msgstr ""
+msgstr "Proč podporujete migraci na jiné distribuce?"
 
 #: www/templates/elevate/index.html:252
 msgid ""
@@ -417,25 +451,31 @@ msgid ""
 "use and contribute to, no matter which distro you prefer. That’s the open "
 "source way."
 msgstr ""
+"Ekosystém CentOS je velmi rozsáhlá a rozmanitá komunita. Tento projekt jsme "
+"vyvinuli v dobré víře, že jej může používat a přispívat do něj každý člen "
+"komunity bez ohledu na to, které distribuci dáváte přednost. To je způsob "
+"open source."
 
 #: www/templates/foundation/members/index.html:6
 #: www/templates/foundation/members/index.html:7
 msgid "AlmaLinux OS Foundation - membership"
-msgstr ""
+msgstr "Nadace AlmaLinux OS - členství"
 
 #: www/templates/foundation/members/index.html:21
 msgid "Join the AlmaLinux OS Foundation"
-msgstr ""
+msgstr "Připojte se k Nadaci AlmaLinux OS"
 
 #: www/templates/foundation/members/index.html:25
 msgid ""
 "Be heard! Join the AlmaLinux Foundation as a Member or Sponsor. Own and vote "
 "on shaping the future of AlmaLinux OS!"
 msgstr ""
+"Buďte slyšet! Staňte se členem nebo sponzorem Nadace AlmaLinux. Rozhodujte a "
+"podílejte se na budoucnosti operačního systému AlmaLinux!"
 
 #: www/templates/foundation/members/index.html:32
 msgid "Apply for membership"
-msgstr ""
+msgstr "Žádost o členství"
 
 #: www/templates/foundation/members/index.html:41
 msgid ""
@@ -447,6 +487,12 @@ msgid ""
 "sponsors and service providers to the community, as well as official "
 "sponsors for the project."
 msgstr ""
+"Nadace AlmaLinux Foundation je subjekt, který stojí za operačním systémem "
+"AlmaLinux, navždy svobodnou linuxovou distribucí podnikové třídy. Jako člen "
+"máte možnost podílet se na směřování projektu a můžete volit členy správní "
+"rady a být do ní voleni ostatními členy. Členem se můžete stát několika "
+"způsoby, včetně přispěvatelů projektu, správců/sponzorů zrcadel a "
+"poskytovatelů služeb komunitě, jakož i oficiálních sponzorů projektu."
 
 #: www/templates/foundation/members/index.html:51
 msgid ""
