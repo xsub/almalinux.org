@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-16 21:25+0000\n"
-"PO-Revision-Date: 2022-01-28 17:53+0000\n"
-"Last-Translator: george kitsoukakis <norhorn@gmail.com>\n"
-"Language-Team: Greek <https://hosted.weblate.org/projects/almalinux/website-"
-"backend/el/>\n"
+"PO-Revision-Date: 2022-11-07 18:08+0000\n"
+"Last-Translator: Michalis Zisis <mixasgr@greeklug.gr>\n"
+"Language-Team: Greek <https://hosted.weblate.org/projects/almalinux/"
+"website-backend/el/>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.11-dev\n"
+"X-Generator: Weblate 4.14.2\n"
 
 #: commons/templatetags/motd.py:39
 msgid "Read more"
@@ -72,7 +72,7 @@ msgstr "Μέλη"
 
 #: www/templates/_partial/footer.html:19 www/templates/_partial/navbar.html:62
 msgid "ELevate"
-msgstr ""
+msgstr "ELevate"
 
 #: www/templates/_partial/footer.html:20 www/templates/_partial/navbar.html:67
 msgid "Mailing Lists"
@@ -132,7 +132,7 @@ msgstr "Ιστολόγιο"
 
 #: www/templates/_partial/navbar.html:47
 msgid "Migrate from CentOS 8"
-msgstr "Μετεγκατάσταση από CentOS 8"
+msgstr "Μετατροπή από CentOS 8"
 
 #: www/templates/_partial/navbar.html:52
 msgid "Report Bugs"
@@ -172,7 +172,7 @@ msgstr "Επόμενο"
 
 #: www/templates/contribute/index.html:6
 msgid "AlmaLinux OS - Contribute"
-msgstr "AlmaLinux OS - Συνεισφέρουν"
+msgstr "AlmaLinux OS - Συνεισφορά"
 
 #: www/templates/contribute/index.html:7 www/templates/contribute/index.html:22
 msgid "Contribute to AlmaLinux OS development"
@@ -184,6 +184,10 @@ msgid ""
 "community chat. There are many ways to contribute to AlmaLinux OS - testing, "
 "quality assurance, documentation, and more."
 msgstr ""
+"Το λειτουργικό σύστημα AlmaLinux και η ανάπτυξη υποδομής του οργανώνονται "
+"χρησιμοποιώντας τη συνομιλία της κοινότητας μας. Υπάρχουν πολλοί τρόποι για "
+"να συνεισφέρετε στο λειτουργικό σύστημα AlmaLinux - με δοκιμές, διασφάλιση "
+"ποιότητας, τεκμηρίωση και πολλά άλλα."
 
 #: www/templates/contribute/index.html:33
 #, python-format
@@ -191,10 +195,12 @@ msgid ""
 "<a href=\"%(intro_link)s\">Introduce yourself</a> or join one of the topical "
 "channels below to find out more!"
 msgstr ""
+"<a href=\"%(intro_link)s\">Συστηθείτε</a> ή εγγραφείτε σε ένα από τα "
+"παρακάτω κανάλια για να μάθετε περισσότερα!"
 
 #: www/templates/contribute/index.html:43
 msgid "General chat"
-msgstr ""
+msgstr "Γενική συνομιλία"
 
 #: www/templates/contribute/index.html:48
 msgid "Development"
@@ -214,35 +220,41 @@ msgstr "Τεκμηρίωση"
 
 #: www/templates/contribute/index.html:68
 msgid "Marketing"
-msgstr ""
+msgstr "Προώθηση"
 
 #: www/templates/contribute/index.html:73
 msgid "Web presence"
-msgstr ""
+msgstr "Παρουσία στο διαδίκτυο"
 
 #: www/templates/contribute/index.html:82
 msgid "Join AlmaLinux OS community chat"
-msgstr ""
+msgstr "Εγγραφείτε στη συνομιλία της κοινότητας του AlmaLinux OS"
 
 #: www/templates/elevate/index.html:6
 msgid "AlmaLinux OS - ELevate Your Distribution"
-msgstr ""
+msgstr "AlmaLinux OS - ELevate την Διανομή σας"
 
 #: www/templates/elevate/index.html:8
 msgid ""
 "ELevate enables migration between major versions of RHEL(r) derivatives. "
 "Easily go from CentOS 7.x to any 8.x of your choice"
 msgstr ""
+"Το ELevate κάνει εφικτή τη μετατροπή μεταξύ κύριων εκδόσεων, από παράγωγες "
+"διανομές RHEL(r). Μεταβείτε εύκολα από το CentOS 7.x σε οποιοδήποτε 8.x της "
+"επιλογής σας"
 
 #: www/templates/elevate/index.html:23
 msgid "ELevate Your Distribution"
-msgstr ""
+msgstr "ELevate την Διανομή σας"
 
 #: www/templates/elevate/index.html:27
 msgid ""
 "ELevate enables migration between major versions of RHEL&reg; derivatives. "
 "Easily go from CentOS 7.x to any 8.x of your choice"
 msgstr ""
+"Το ELevate κάνει εφικτή τη μετατροπή μεταξύ κύριων εκδόσεων, από παράγωγες "
+"διανομές RHEL&reg;. Μεταβείτε εύκολα από το CentOS 7.x σε οποιοδήποτε 8.x "
+"της επιλογής σας"
 
 #: www/templates/elevate/index.html:37
 msgid "Get Started"
@@ -250,15 +262,15 @@ msgstr "Ξεκινήστε"
 
 #: www/templates/elevate/index.html:42
 msgid "Discuss"
-msgstr ""
+msgstr "Συζητήστε"
 
 #: www/templates/elevate/index.html:58
 msgid "About"
-msgstr ""
+msgstr "Περί"
 
 #: www/templates/elevate/index.html:63
 msgid "Major Version Upgrades"
-msgstr ""
+msgstr "Αναβαθμίσεις κύριας έκδοσης"
 
 #: www/templates/elevate/index.html:66
 msgid ""
@@ -266,10 +278,14 @@ msgid ""
 "based distributions from 7.x to 8.x. Preserve your applications, your data, "
 "and your sanity. Run the most recent version of the OS and software you need."
 msgstr ""
+"Δεν ήταν δυνατό--μέχρι τώρα. Μετατρέψτε εύκολα τις κύριες εκδόσεις διανομών "
+"που βασίζονται σε RHEL, από 7.x σε 8.x. Διατηρήστε τις εφαρμογές σας, τα "
+"δεδομένα σας και τη λογική σας. Εκτελέστε την πιο πρόσφατη έκδοση του "
+"λειτουργικού συστήματος και του λογισμικού που χρειάζεστε."
 
 #: www/templates/elevate/index.html:77
 msgid "Package Evolution Service"
-msgstr ""
+msgstr "Package Evolution Service"
 
 #: www/templates/elevate/index.html:80
 #, python-format
@@ -279,10 +295,15 @@ msgid ""
 "submit new data sets for packages. Users and maintainers can both utilize "
 "the PES to help make migrations smooth and easy."
 msgstr ""
+"Η καρδιά του ELevate είναι η υπηρεσία <a href=\"%(pes_link)s\">Package "
+"Evolution Service</a> (PES) που σας επιτρέπει να κάνετε λήψη, να "
+"προσαρμόσετε ή ακόμη και να υποβάλλετε νέα σύνολα δεδομένων για πακέτα. Οι "
+"χρήστες και οι συντηρητές μπορούν να χρησιμοποιήσουν την PES για να κάνουν "
+"τις μετατροπές ομαλά και εύκολα."
 
 #: www/templates/elevate/index.html:93
 msgid "Community-wide Project"
-msgstr ""
+msgstr "Έργο για όλη την Κοινότητα"
 
 #: www/templates/elevate/index.html:96
 msgid ""
@@ -290,14 +311,18 @@ msgid ""
 "for the whole ecosystem, not just AlmaLinux. ELevate supports migrating to/"
 "from other distributions and is open for all to contribute to and enhance."
 msgstr ""
+"Το ELevate αναπτύσσεται ανεξαρτήτως διανομής και έχει κατασκευαστεί ως "
+"εργαλείο για ολόκληρο το οικοσύστημα, όχι μόνο για το AlmaLinux. Το ELevate "
+"υποστηρίζει τη μετατροπή προς/από άλλες διανομές και είναι ανοικτό σε όλους "
+"που επιθυμούν να συνεισφέρουν και βελτιώσουν."
 
 #: www/templates/elevate/index.html:107
 msgid "FAQ"
-msgstr ""
+msgstr "Συχνές ερωτήσεις"
 
 #: www/templates/elevate/index.html:112
 msgid "What is ELevate?"
-msgstr ""
+msgstr "Τι είναι το ELevate;"
 
 #: www/templates/elevate/index.html:117
 msgid ""
@@ -306,10 +331,15 @@ msgid ""
 "Leapp framework with a community created library and service for the "
 "migration metadata set required for it."
 msgstr ""
+"Το ELevate είναι ένα έργο που στοχεύει να παρέχει τη δυνατότητα μετατροπής "
+"μεταξύ κύριων εκδόσεων διανομών, που βασίζονται σε RHEL, από 7.x σε 8.x. "
+"Συνδυάζει το Leapp framework της Red Hat με μια βιβλιοθήκη και υπηρεσία που "
+"δημιουργήθηκε από την κοινότητα, για το σετ μεταδεδομένων μετατροπής που "
+"απαιτούνται για αυτό."
 
 #: www/templates/elevate/index.html:127
 msgid "This looks awesome. How can I contribute?"
-msgstr ""
+msgstr "Φαίνεται φοβερό. Πώς μπορώ να συνεισφέρω;"
 
 #: www/templates/elevate/index.html:132
 #, python-format
@@ -319,10 +349,15 @@ msgid ""
 "%(github_link)s</a> and you can add/edit/interact with package metadata at "
 "<a href=\"%(pes_link)s\">%(pes_link)s</a>."
 msgstr ""
+"Αρχικά βρείτε μας στο <a href=\"%(chat_link)s\">#migration</a> κανάλι "
+"Mattermost. Μπορείτε να βρείτε τον κώδικα του εργαλείου εδώ: <a href=\""
+"%(github_link)s\">%(github_link)s</a> και μπορείτε να "
+"προσθέσετε/επεξεργαστείτε/αλληλεπιδράσετε με μεταδεδομένα πακέτων στο <a "
+"href=\"%(pes_link)s\">%(pes_link)s</a>."
 
 #: www/templates/elevate/index.html:143
 msgid "Is this ready for production?"
-msgstr ""
+msgstr "Είναι έτοιμο για την παραγωγή;"
 
 #: www/templates/elevate/index.html:148
 msgid ""
@@ -331,10 +366,15 @@ msgid ""
 "surprises, we highly recommend that you test migrations scenarios in a VM or "
 "sandbox before running a migration in production."
 msgstr ""
+"ΣΧΕΤΙΚΟ.  Κάθε περιβάλλον είναι διαφορετικό και μοναδικό, με βάση τις "
+"εφαρμογές και τις παραμετροποιήσεις του. Δεδομένου ότι το έργο είναι ακόμα "
+"υπό ανάπτυξη, για να αποφύγετε τυχόν εκπλήξεις, συνιστούμε ανεπιφύλακτα να "
+"δοκιμάσετε σενάρια μετατροπής σε ένα VM ή sandbox, πριν εκτελέσετε μια "
+"μετατροπή στην παραγωγή."
 
 #: www/templates/elevate/index.html:158
 msgid "What operating systems does ELevate support?"
-msgstr ""
+msgstr "Ποια λειτουργικά συστήματα υποστηρίζει το ELevate;"
 
 #: www/templates/elevate/index.html:163
 msgid ""
@@ -342,10 +382,13 @@ msgid ""
 "following OS: <ul> <li>AlmaLinux OS 8</li> <li>CentOS Stream 8</li> "
 "<li>Oracle Linux 8</li> <li>Rocky Linux 8</li> </ul>"
 msgstr ""
+"Επί του παρόντος, το ELevate παρέχει δεδομένα Leapp για μετατροπή από CentOS "
+"7 στα ακόλουθα λειτουργικά συστήματα : <ul> <li>AlmaLinux OS 8</li> "
+"<li>CentOS Stream 8</li> <li>Oracle Linux 8</li> <li>Rocky Linux 8</li> </ul>"
 
 #: www/templates/elevate/index.html:177
 msgid "Will migration be \"in-place\"?"
-msgstr ""
+msgstr "Η μετατροπή θα είναι «επί τόπου»;"
 
 #: www/templates/elevate/index.html:182
 msgid "Yes. All your data, applications and settings will be kept."
@@ -358,6 +401,7 @@ msgstr ""
 #: www/templates/elevate/index.html:195
 msgid "Migrations will require your system to reboot twice."
 msgstr ""
+"Οι μετατροπές θα απαιτήσουν την επανεκκίνηση του συστήματός σας δύο φορές."
 
 #: www/templates/elevate/index.html:203
 msgid "What does the Package Evolution Service do?"
@@ -372,6 +416,14 @@ msgid ""
 "to improve the data by adding new actions or even create a custom dataset "
 "for packages from third-party or private repositories."
 msgstr ""
+"Η υπηρεσία Package Evolution Service αποθηκεύει μεταδεδομένα μετατροπής "
+"πακέτων. Τα μεταδεδομένα απαντούν σε ερωτήσεις σχετικά με το πώς "
+"εξελίσσονται τα πακέτα μεταξύ των κύριων εκδόσεων διανομών. Η PES "
+"υποστηρίζει διάφορες κατηγορίες κανόνων για πακέτα, όπως προστέθηκε, "
+"αφαιρέθηκε, μετονομάστηκε, διαιρέθηκε, συγχωνεύθηκε, κ.α. Η υπηρεσία "
+"επιτρέπει επίσης σε όλους να βελτιώσουν τα δεδομένα προσθέτοντας νέες "
+"ενέργειες ή ακόμα να δημιουργήσουν ένα προσαρμοσμένο σύνολο δεδομένων για "
+"πακέτα από τρίτες πηγές ή ιδιωτικά αποθετήρια."
 
 #: www/templates/elevate/index.html:220
 msgid ""
@@ -395,7 +447,7 @@ msgstr ""
 
 #: www/templates/elevate/index.html:247
 msgid "Why are you supporting migration to other distributions?"
-msgstr ""
+msgstr "Γιατί υποστηρίζετε τη μετατροπή σε άλλες διανομές;"
 
 #: www/templates/elevate/index.html:252
 msgid ""
@@ -513,11 +565,11 @@ msgstr ""
 
 #: www/templates/index.html:47
 msgid "Contribute"
-msgstr ""
+msgstr "Συνεισφορά"
 
 #: www/templates/index.html:57
 msgid "Migrate"
-msgstr ""
+msgstr "Μετατροπή"
 
 #: www/templates/index.html:73
 msgid ""
@@ -629,6 +681,10 @@ msgid ""
 "the case when switching from CentOS and other RHEL&reg; derivatives to "
 "AlmaLinux OS. Switching is easy - <a href=\"%(migrate_link)s\">read how.</a>"
 msgstr ""
+"Η αλλαγή διανομής είναι συνήθως δαπανηρή και χρονοβόρα, αλλά αυτό δεν "
+"συμβαίνει κατά την εναλλαγή από το CentOS και άλλα παράγωγα RHEL&reg; στο "
+"AlmaLinux OS. Η μετατροπή είναι εύκολη <a href=\"%(migrate_link)s\">διαβάστε "
+"πώς.</a>"
 
 #: www/templates/index.html:260
 msgid "Commercial Support"
