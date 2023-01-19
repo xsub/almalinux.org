@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-16 21:25+0000\n"
-"PO-Revision-Date: 2023-01-14 19:49+0000\n"
+"PO-Revision-Date: 2023-01-19 21:50+0000\n"
 "Last-Translator: gnu-ewm <gnu.ewm@protonmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/almalinux/"
 "website-backend/pl/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && ("
 "n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && "
 "n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
-"X-Generator: Weblate 4.15.1-dev\n"
+"X-Generator: Weblate 4.15.1\n"
 
 #: commons/templatetags/motd.py:39
 msgid "Read more"
@@ -530,7 +530,7 @@ msgstr "Zastosuj"
 
 #: www/templates/foundation/members/index.html:90
 msgid "Mirror Member"
-msgstr ""
+msgstr "Dostawca serwerów lustrzanych"
 
 #: www/templates/foundation/members/index.html:93
 msgid ""
