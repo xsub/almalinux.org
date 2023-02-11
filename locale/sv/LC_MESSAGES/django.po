@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-16 21:25+0000\n"
-"PO-Revision-Date: 2023-01-14 19:49+0000\n"
-"Last-Translator: Anonymous <anonymous58630@gmail.com>\n"
+"PO-Revision-Date: 2023-02-11 09:01+0000\n"
+"Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/almalinux/"
 "website-backend/sv/>\n"
 "Language: sv\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15.1-dev\n"
+"X-Generator: Weblate 4.16-dev\n"
 
 #: commons/templatetags/motd.py:39
 msgid "Read more"
@@ -249,6 +249,8 @@ msgid ""
 "ELevate enables migration between major versions of RHEL&reg; derivatives. "
 "Easily go from CentOS 7.x to any 8.x of your choice"
 msgstr ""
+"ELevate möjliggör migration mellan större versioner av RHEL&reg; derivat. Gå "
+"enkelt från CentOS 7.x till vilken 8.x du än väljer"
 
 #: www/templates/elevate/index.html:37
 msgid "Get Started"
@@ -272,10 +274,14 @@ msgid ""
 "based distributions from 7.x to 8.x. Preserve your applications, your data, "
 "and your sanity. Run the most recent version of the OS and software you need."
 msgstr ""
+"Det var inte möjligt - förrän nu. Migrera enkelt mellan större versioner av "
+"RHEL-baserade distributioner från 7.x till 8.x. Bevara dina applikationer, "
+"din data och ditt förstånd. Kör den senaste versionen av operativsystemet "
+"och programvaran du behöver."
 
 #: www/templates/elevate/index.html:77
 msgid "Package Evolution Service"
-msgstr ""
+msgstr "Paketevolutions tjänst"
 
 #: www/templates/elevate/index.html:80
 #, python-format
@@ -285,6 +291,10 @@ msgid ""
 "submit new data sets for packages. Users and maintainers can both utilize "
 "the PES to help make migrations smooth and easy."
 msgstr ""
+"Det pumpande hjärtat i ELevate är <a href=\"%(pes_link)s\">Paketevolutions "
+"tjänst</a> (PES) som låter dig ladda ner, anpassa och till och med skicka in "
+"nya datamängder för paket. Både användare och underhållare kan använda PES "
+"för att göra migrering smidig och enkel."
 
 #: www/templates/elevate/index.html:93
 msgid "Community-wide Project"
@@ -316,6 +326,10 @@ msgid ""
 "Leapp framework with a community created library and service for the "
 "migration metadata set required for it."
 msgstr ""
+"ELevate är ett projekt som syftar till att ge möjligheten att migrera mellan "
+"större versioner av RHEL-baserade distributioner från 7.x till 8.x. Den "
+"kombinerar Red Hats Leapp-ramverk med ett gemenskapsskapat bibliotek och en "
+"tjänst för den migreringsmetadatauppsättning som krävs för det."
 
 #: www/templates/elevate/index.html:127
 msgid "This looks awesome. How can I contribute?"
@@ -345,6 +359,11 @@ msgid ""
 "surprises, we highly recommend that you test migrations scenarios in a VM or "
 "sandbox before running a migration in production."
 msgstr ""
+"YMMV. Varje miljö är annorlunda och unik baserat på applikationer och "
+"konfigurationer. Eftersom detta fortfarande är under utveckling, för att "
+"undvika överraskningar, rekommenderar vi starkt att du testar "
+"migreringsscenarier i en virtuell dator eller sandlåda innan du kör en "
+"migrering i produktion."
 
 #: www/templates/elevate/index.html:158
 msgid "What operating systems does ELevate support?"
@@ -362,7 +381,7 @@ msgstr ""
 
 #: www/templates/elevate/index.html:177
 msgid "Will migration be \"in-place\"?"
-msgstr ""
+msgstr "Kommer migrationen att vara \"på plats\"?"
 
 #: www/templates/elevate/index.html:182
 msgid "Yes. All your data, applications and settings will be kept."
@@ -379,7 +398,7 @@ msgstr "Migreringen kräver att systemet startas om två gånger."
 
 #: www/templates/elevate/index.html:203
 msgid "What does the Package Evolution Service do?"
-msgstr ""
+msgstr "Vad gör Paketevolutions tjänsten?"
 
 #: www/templates/elevate/index.html:208
 msgid ""
@@ -390,22 +409,32 @@ msgid ""
 "to improve the data by adding new actions or even create a custom dataset "
 "for packages from third-party or private repositories."
 msgstr ""
+"Paketevolutions tjänsten lagrar paketmigreringsmetadata. Metadata svarar på "
+"frågor om hur paket utvecklas mellan stora distributionsutgåvor. PES stöder "
+"flera klasser av regler för paket som tillagda, borttagna, omdöpta, delade, "
+"sammanfogade och så vidare. Tjänsten tillåter också alla att förbättra data "
+"genom att lägga till nya åtgärder eller till och med skapa en anpassad "
+"datauppsättning för paket från tredje parts eller privata förråd."
 
 #: www/templates/elevate/index.html:220
 msgid ""
 "Red Hat offers a data set which is non-freely licensed. Are you using this "
 "same data set?"
 msgstr ""
+"Red Hat erbjuder en datauppsättning som är icke-fritt licensierad. Använder "
+"ni samma datauppsättning?"
 
 #: www/templates/elevate/index.html:225
 msgid ""
 "No. We respect Red Hat’s work and our initial data set was provided by the "
 "AlmaLinux Foundation and contributions from Oracle."
 msgstr ""
+"Nej. Vi respekterar Red Hats arbete och vår initiala datauppsättning "
+"tillhandahålls av AlmaLinux stiftelsen med bidrag från Oracle."
 
 #: www/templates/elevate/index.html:234
 msgid "What license is your metadata under?"
-msgstr ""
+msgstr "Vilken licens publiceras era metadata under?"
 
 #: www/templates/elevate/index.html:239
 msgid "The metadata is provided under an Apache License."
@@ -422,6 +451,10 @@ msgid ""
 "use and contribute to, no matter which distro you prefer. That’s the open "
 "source way."
 msgstr ""
+"CentOS-ekosystemet är en mycket stor och mångsidig gemenskap. Vi har "
+"utvecklat det här projektet i god tro i hopp om att alla i gemenskapen kan "
+"använda och bidra till den, oavsett vilken distribution du föredrar. Detta "
+"är så som öppen källkod ska fungera."
 
 #: www/templates/foundation/members/index.html:6
 #: www/templates/foundation/members/index.html:7
@@ -454,6 +487,12 @@ msgid ""
 "sponsors and service providers to the community, as well as official "
 "sponsors for the project."
 msgstr ""
+"AlmaLinux stiftelsen är entiteten bakom AlmaLinux OS, den evigt fria "
+"företagsklassade Linux distributionen. Som medlem kommer du att ha en röst i "
+"projektets riktning och kan rösta på och röstas in i styrelsen av andra "
+"medlemmar. Det finns flera vägar tillgängliga för att bli medlem, inklusive "
+"projektbidragsgivare, spegelunderhållare/sponsorer och tjänsteleverantörer "
+"till gemenskapen, såväl som officiella sponsorer för projektet."
 
 #: www/templates/foundation/members/index.html:51
 msgid ""
@@ -511,6 +550,7 @@ msgstr "Sponsormedlem"
 msgid ""
 "Entities who wish to contribute funding for the project through sponsorship."
 msgstr ""
+"Entiteter som vill bidra med finansiering för projektet genom sponsring."
 
 #: www/templates/foundation/members/index.html:131
 msgid "Do you have membership related questions?"
@@ -526,7 +566,7 @@ msgstr "Styrelse"
 
 #: www/templates/index.html:6
 msgid "AlmaLinux OS - Forever-Free Enterprise-Grade Operating System"
-msgstr ""
+msgstr "AlmaLinux OS - Alltid gratis företagsklassat operativsystem"
 
 #: www/templates/index.html:34
 msgid "Free Linux OS for the community, by the community"
@@ -539,6 +579,10 @@ msgid ""
 "grade platform. AlmaLinux OS is 1:1 binary compatible with RHEL&reg; and pre-"
 "Stream CentOS."
 msgstr ""
+"Ett öppen källkods, gemenskapsägdt och styrt, evig fri företags Linux-"
+"distribution, fokuserad på långsiktig stabilitet, vilket ger en robust "
+"produktionskvalitetsplattform. AlmaLinux OS är 1:1 binärt kompatibelt med "
+"RHEL&reg; och CentOS före Stream."
 
 #: www/templates/index.html:47
 msgid "Contribute"
@@ -615,6 +659,10 @@ msgid ""
 "release. AlmaLinux OS is a 1:1 binary compatible clone of RHEL&reg; guided "
 "and built by the community."
 msgstr ""
+"AlmaLinux OS är ett gemenskapsdrivet Linux-operativsystem med öppen källkod "
+"som fyller hålet efter att den stabila CentOS Linux-versionen avvecklades. "
+"AlmaLinux OS är en 1:1 binärkompatibel klon av RHEL&reg; som vägleds och "
+"byggs av gemenskapen."
 
 #: www/templates/index.html:162
 msgid ""
@@ -622,6 +670,9 @@ msgid ""
 "sponsorship from CloudLinux Inc and support from other sponsors. Ongoing "
 "development efforts are governed by the members of the community."
 msgstr ""
+"Som ett fristående, helt gratis OS, åtnjuter AlmaLinux OS 1 miljoner $ i "
+"årlig sponsring från CloudLinux Inc och med stöd från andra sponsorer. "
+"Pågående utvecklingsinsatser styrs av medlemmarna i gemenskapen."
 
 #: www/templates/index.html:169
 msgid ""
@@ -645,6 +696,10 @@ msgid ""
 "distribution with regular releases that come with a long support windows. "
 "You can rely on AlmaLinux OS to run any and every critical workloads."
 msgstr ""
+"AlmaLinux OS är ett serveroperativsystem av företagsklass och en stabil "
+"Linux-distribution med vanliga utgåvor som kommer med långa supportfönster. "
+"Du kan lita på att AlmaLinux OS kör varje och alla kritiska "
+"arbetsbelastningar."
 
 #: www/templates/index.html:220
 msgid "Fully supported, always free"
@@ -671,6 +726,9 @@ msgid ""
 "the case when switching from CentOS and other RHEL&reg; derivatives to "
 "AlmaLinux OS. Switching is easy - <a href=\"%(migrate_link)s\">read how.</a>"
 msgstr ""
+"Att byta distributioner är vanligtvis kostsamt och tidskrävande, men det är "
+"inte fallet när man byter från CentOS och andra RHEL&reg; derivat till "
+"AlmaLinux OS. Att byta är enkelt - <a href=\"%(migrate_link)s\">läs hur.</a>"
 
 #: www/templates/index.html:260
 msgid "Commercial Support"
