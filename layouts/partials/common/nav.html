@@ -22,21 +22,10 @@
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="main-navbar">
             <ul class="navbar-nav  mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ "/blog" | relLangURL }}" style="margin-top:5px">
-                        {{ i18n "Blog" }}
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://wiki.almalinux.org" style="margin-top:5px">
-                        {{ i18n "Wiki" }}
-                    </a>
-                </li>
-                <li class="nav-item dropdown ">
+                    <li class="nav-item dropdown ">
                     <a class="nav-link dropdown-toggle " id="navbarDropResources" data-toggle="dropdown" aria-expanded="false" style="margin-top:5px">
-                        {{ i18n "Resources" }}
+                        {{ "Assets" }}
                     </a>
-
 
                     <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-lg-start" aria-labelledby="navbarDropResources">
                         <li>
@@ -81,9 +70,21 @@
                         </li>
                     </ul>
                 </li>
+
+                 <li class="nav-item">
+                    <a class="nav-link" href="{{ "/blog" | relLangURL }}" style="margin-top:5px">
+                        {{ i18n "Blog" }}
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://wiki.almalinux.org" style="margin-top:5px">
+                        {{ i18n "Wiki" }}
+                    </a>
+                </li>
+
                 <li class="nav-item">
                     <a class="nav-link" href="https://shop.almalinux.org/?utm_source=almalinuxorg&amp;utm_medium=web&amp;utm_campaign=almalinuxorg_navbar" style="margin-top:5px">
-                        {{ i18n "Shop" }}
+                        {{ " [ Shop ]" }}
                     </a>
                 </li>
                 <li class="nav-item dropdown ps-md-2">
@@ -122,6 +123,6 @@
 <div id="al-motd" dir="ltr" data-nosnippet="" style="display: block; letter-spacing: 0px;">
     <div class="container pl-3">
         <i class="bi bi-info-circle"></i>
-        <div class="text">{{ i18n "The Future of AlmaLinux is Bright - AlmaLinux OS Foundation's renewed commitment to our users." }} <a href="{{ "/blog/future-of-almalinux/" | relLangURL }}">{{ i18n "Read more" }}</a></div>
+        <div class="text">{{ "Create an AlmaLinux account and join The HW Certification SIG to review the Program."  }} <a href="https://accounts.almalinux.org">{{ i18n "Read more" }}</a></div>
     </div>
 </div>
