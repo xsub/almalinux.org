@@ -67,6 +67,21 @@ padding-right: 15px !important;
 .al-page-index .al-hero-cta-tertiary:hover {
   background: #f8c100;
 }
+
+.al-page-index .al-hero-cta-quaternary {
+  background: #FF4649;
+  color: #222222;
+  margin: 10px;
+}
+.al-page-index .al-hero-cta-quaternary img {
+  display: inline;
+  height: 1em;
+}
+.al-page-index .al-hero-cta-quaternary:hover {
+  background: #f8c100;
+}
+
+
 .al-page-index .al-index-feature-container {
   background: #0e3b5c;
 }

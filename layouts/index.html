@@ -66,127 +66,47 @@
           <div class="container px-0 al-py-lg">  
             <div class="row flex-lg-row-reverse align-items-center py-2 py-md-5">
                 <div class="d-none d-lg-block col-10 col-sm-8 col-lg-6">
-
-
-                        <img src="/images/hero.png" class="d-block mx-lg-auto img-fluid" alt="Hero image" width="624" height="430">
+                        <img src="/images/hw-cert-datacenter-gfx.png" class="d-block mx-lg-auto img-fluid" alt="Hero image" width="624" height="430">
 
                 </div>
                 <div class="col-lg-6">
                     <h1 class="display-5 fw-bold lh-1 mb-5 mb-md-3">
-                        {{ i18n "Free Linux OS for the community, by the community" }}
+                        {{ "Hardware Certifcation" }}
                     </h1>
                     <p class="lead mb-5 mb-md-3">
-                        {{ i18n "An Open Source, community owned and governed, forever-free enterprise Linux distribution, focused on long-term stability, providing a robust production-grade platform. AlmaLinux OS is binary compatible with RHEL®." }}
+                        {{ "The AlmaLinux Hardware Certification Program ensures hardware compatibility and promotes OS adoption through community-led, flexible pathways. Designed for long-term reliability and performance." }}
                     </p>
-                    <div class="d-grid gap-3 d-md-flex justify-content-md-start pt-3">
-                        <a href="{{ "/contribute" | relLangURL }}" class="btn btn-lg px-4 me-md-2 al-hero-cta-primary">
+                    <div class="d-grid gap- d-md-flex justify-content-md-start pt-3">
+                        <a href="{{ "#" | relLangURL }}" class="btn btn-lg px-4 me-md-2 al-hero-cta-primary">
+                            <img src="/images/hw-cert-hw-certificate.svg"> 
+                            {{  "Certified" }}
+                        </a>
+                        <a href="#" class="btn btn-lg px-4 al-hero-cta-secondary">
+                            <img src="/images/hw-cert-icon-certify.svg">
+                            {{  "Certify" }}
+                        </a>
+                        <a href="#" class="btn btn-lg px-4 al-hero-cta-tertiary">
+                            
                             <i class="bi bi-people pe-1"></i>
-                            {{ i18n "Contribute" }}
+                            {{  "Contact" }}
                         </a>
-                        <a href="{{ "/get-almalinux" | absLangURL }}" class="btn btn-lg px-4 al-hero-cta-secondary">
-                            <i class="bi bi-download pe-1"></i>
-                            {{ i18n "Download" }}
+                        <a href="#" class="btn btn-lg px-4 al-hero-cta-quaternary">
+                            <img src="/images/hw-cert-icon-login.svg">
+                            {{  "Login" }}
                         </a>
-                        <a href="https://wiki.almalinux.org/documentation/migration-guide" class="btn btn-lg px-4 al-hero-cta-tertiary">
-                            <img src="/images/icon-migrate.svg" alt="Icon" class="pe-1">
-                            {{ i18n "Migrate" }}
-                        </a>
+                     
                     </div>
                 </div>
             </div>
           </div>
         </div>
 
-        <!-- COMMUNITY -->
-        <div class="al-index-community-container" style="background: #0f4266!important">
-            <div class="container al-py-md">
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-2 py-md-5">
-                    <div class="col d-flex align-items-stretch">
-                        <i class="bi bi-github al-index-community-icon"></i>
-                        <div class="al-index-community-content-wrap">
-                            <h4 class="fw-bold mb-0 pb-2">GitHub</h4>
-                            <p>
-                                {{ i18n "Our GitHub organization contains source code and tools used to build AlmaLinux OS and related infrastructure." }}
-                            </p>
-                            <div class="pt-1" >
-                                <a href="https://github.com/AlmaLinux/" class="btn btn-primary al-community-cta">
-                                    {{ i18n "Explore" }}
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col d-flex align-items-stretch">
-                        <img loading="lazy" class="al-index-community-icon img" src="/images/icon-reddit.svg" alt="Reddit">
-                        <div class="al-index-community-content-wrap">
-                            <h4 class="fw-bold mb-0 pb-2">Reddit</h4>
-                            <p>
-                                {{ i18n "Join our vibrant Reddit community, interact with other AlmaLinux OS users, receive updates, find and provide help." }}
-                            </p>
-                            <div class="pt-1" >
-                                <a href="https://www.reddit.com/r/almalinux" class="btn btn-primary al-community-cta reddit">
-                                    {{ i18n "Join" }}
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col d-flex align-items-stretch">
-                        <i class="bi bi-chat-dots al-index-community-icon"></i>
-                        <div class="al-index-community-content-wrap">
-                            <h4 class="fw-bold mb-0 pb-2">
-                                {{ i18n "Community chat" }}
-                            </h4>
-                            <p>
-                                {{ i18n "Join a real time discussion with other AlmaLinux OS community members, governance team and AlmaLinux OS developers." }}
-                            </p>
-                            <div class="pt-1" >
-                                <a href="https://chat.almalinux.org" class="btn btn-primary al-community-cta">
-                                    {{ i18n "Engage" }}
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col d-flex align-items-stretch">
-                        <i class="bi bi-journals al-index-community-icon"></i>
-                        <div class="al-index-community-content-wrap">
-                            <h4 class="fw-bold mb-0 pb-2">{{ i18n "Community forums" }}</h4>
-                            <p>
-                                {{ i18n "Ask questions, get answers and contribute community support to others in AlmaLinux OS community and developers alike." }}
-                            </p>
-                            <div class="pt-1">
-                                <a href="https://almalinux.discourse.group" class="btn btn-primary al-community-cta">
-                                    {{ i18n "Discover" }}
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-        <!-- ABOUT SHORT -->
-        <div class="al-index-about" style="background: #0e3b5c!important;">
-            <div class="container al-py-md">
-                <div class="row d-flex align-items-center justify-content-center py-2 py-md-5">
-                    <div class="col-12 col-md-12">
-                        <h2 class="pb-3">{{ i18n "About AlmaLinux OS" }}</h2>
-                        <p>
-                            {{ i18n "AlmaLinux OS is an open-source, community-driven Linux operating system that fills the gap left by the discontinuation of the CentOS Linux stable release. AlmaLinux OS is an Enterprise Linux distro, binary compatible with RHEL®, and guided and built by the community." }}
-                        </p>
-                        <p>
-                            {{ i18n "As a standalone, completely free OS, AlmaLinux OS enjoys $1M in annual sponsorship from CloudLinux Inc. and support from more than 25 other sponsors. Ongoing development efforts are governed by the members of the community." }}
-                        </p>
-                        <p>
-                            {{ i18n "The AlmaLinux OS Foundation is a 501(c)(6) non-profit created for the benefit of the AlmaLinux OS community." }}
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
 
  <!-- GET ALMALINUX -->
          <div id="downloads" class="al-index-community-container" style="background: #0f4266!important">
             <div class="container al-py-lg">
-                <h2 class="pb-2 text-center border-bottom">{{ i18n "Get AlmaLinux OS" }}</h2>
+                <h2 class="pb-2 text-center border-bottom">{{ "Get AlmaLinux OS HW Certification Suite" }}</h2>
                   <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-2 py-md-5">
                     <div class="col d-flex align-items-stretch">
                         <img loading="lazy" class="al-index-community-icon img" src="/images/iso-icon-F.svg" alt="ISO Image">
