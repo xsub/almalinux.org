@@ -16,7 +16,7 @@
     <div class="container  my-3">
         <a class="navbar-brand" href="/">
             <img src="/images/logo.svg" alt="AlmaLinux OS logo" width="165.93" height="32">
-        </a>
+        </a><div style="margin-top: 12px;"><h4>| Certification SIG</h4></div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -77,16 +77,12 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://wiki.almalinux.org" style="margin-top:5px">
-                        {{ i18n "Wiki" }}
+                    <a class="nav-link" href="https://wiki.almalinux.org/certification" style="margin-top:5px">
+                        Certification Wiki
                     </a>
                 </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="https://shop.almalinux.org/?utm_source=almalinuxorg&amp;utm_medium=web&amp;utm_campaign=almalinuxorg_navbar" style="margin-top:5px">
-                        {{ " [ Shop ]" }}
-                    </a>
-                </li>
+         
                 <li class="nav-item dropdown ps-md-2">
                     <button class="btn nav-link dropdown-toggle al-language-switch" id="navbarDropLanguages" data-toggle="dropdown" aria-expanded="false" style="margin-top:3px">
                         <img src="/images/lang.svg" alt="Language" width="24" height="24">
@@ -107,9 +103,9 @@
                     </ul>
                 </li>
                 <li class="nav-item ps-md-2">
-                    <a class="nav-link btn btn al-download-button" href="{{ "/get-almalinux" | absLangURL }}">
+                    <a class="nav-link btn btn al-download-button" href="{{ "/get-cert-suite" | absLangURL }}">
                         <i class="bi bi-download pe-1 d-none d-xl-inline"></i>
-                        {{ i18n "Download" }}
+                        Certification Suite
                     </a>
                 </li>
             </ul>
@@ -117,12 +113,11 @@
     </div>
 
 
-
 </nav>
 
 <div id="al-motd" dir="ltr" data-nosnippet="" style="display: block; letter-spacing: 0px;">
     <div class="container pl-3">
         <i class="bi bi-info-circle"></i>
-        <div class="text">{{ "Create an AlmaLinux account and join The HW Certification SIG to review the Program."  }} <a href="https://accounts.almalinux.org">{{ i18n "Read more" }}</a></div>
+        <div class="text">{{ "Create an AlmaLinux account and join The HW Certification SIG to review the Program."  }} <a href="{{ "/join-cert-sig" }}">{{ i18n "Read more" }}</a></div>
     </div>
 </div>
