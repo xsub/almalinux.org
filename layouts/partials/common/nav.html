@@ -11,12 +11,33 @@
         border: 0px solid transparent;
     }
 </style>
+    <!-- This script adds conditional suffix to AlmaLinux logo "| Certification SIG"-->
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+    // Define the path where the div should be populated
+    const targetPath = "/certify/";
+
+    // Get the current path
+    const currentPath = window.location.pathname;
+
+    // Check if the current path matches the target path
+    if (currentPath === targetPath) {
+        // Select the div you want to populate
+        const divToPopulate = document.getElementById("CertSig_conditional_suffix");
+
+        // Populate the div as needed
+        divToPopulate.innerHTML = "<h4>| Certification SIG</h4>";
+    }
+
+});
+
+</script>
 <nav id="al-primary-navbar" class="al-primary-navbar navbar p-0 sticky-top navbar-expand-lg navbar-dark flex-column with-motd">
 
     <div class="container  my-3">
         <a class="navbar-brand" href="/">
             <img src="/images/logo.svg" alt="AlmaLinux OS logo" width="165.93" height="32">
-        </a><div style="margin-top: 12px;"><h4>| Certification SIG</h4></div>
+        </a><div id="CertSig_conditional_suffix" style="margin-top: 12px;"></div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
