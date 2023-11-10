@@ -13,23 +13,23 @@
 </style>
     <!-- This script adds conditional suffix to AlmaLinux logo "| Certification SIG"-->
 <script>
-    document.addEventListener("DOMContentLoaded", function() {
-    // Define the path where the div should be populated
-    const targetPath = "/certify/";
+  document.addEventListener("DOMContentLoaded", function() {
+    // Define the CertSig paths - where the div should be populated
+    const targetPaths = ["/certified/", "/certify/"];
 
     // Get the current path
     const currentPath = window.location.pathname;
 
-    // Check if the current path matches the target path
-    if (currentPath === targetPath) {
-        // Select the div you want to populate
+    // Check if the current path matches any of the target paths
+    if (targetPaths.includes(currentPath)) {
+        // Select the div specific to logo suffix placeholder
         const divToPopulate = document.getElementById("CertSig_conditional_suffix");
 
         // Populate the div as needed
         divToPopulate.innerHTML = "<h4>| Certification SIG</h4>";
     }
-
 });
+
 
 </script>
 <nav id="al-primary-navbar" class="al-primary-navbar navbar p-0 sticky-top navbar-expand-lg navbar-dark flex-column with-motd">
