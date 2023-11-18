@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSV Search Widget</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <input id="searchInput" class="form-control" placeholder="Type to search...">
+        <table id="resultsTable" class="table mt-4">
+            <thead>
+                <tr>
+                    <th>PCI ID</th>
+                    <th>Equipment Name</th>
+                    <th>Driver</th>
+                    <!-- Add other headers if needed -->
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <!-- jQuery and Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+ 
+ document.addEventListener('DOMContentLoaded', () => {
+    fetchCsvAndFilter('');
+});
+
+document.getElementById('searchInput').addEventListener('input', function(e) {
+    const query = e.target.value.trim();
+    fetchCsvAndFilter(query);
+});
+
+function fetchCsvAndFilter(query) {
+    fetch(csvFilePath)
+        .then(response => response.text())
+        .then(data => {
+            const rows = data.split('\n').filter(row => row.trim().length > 0);
+            
+            const results = rows.filter(row => {
+                if (!query) return true; // Display all if query is empty
+                const cells = row.split(',');
+                return cells[2].includes(query) || // Driver
+                       cells[0].includes(query) || // PCI ID
+                       cells[1].includes(query);  // Equipment Name
+            });
+
+            displayResults(results);
+        });
+}
+
+function displayResults(results) {
+    const tableBody = document.getElementById('resultsTable').querySelector('tbody');
+    tableBody.innerHTML = '';
+
+    results.forEach(row => {
+        const cells = row.split(',');
+        const tr = document.createElement('tr');
+        tr.innerHTML = `
+            <td>${cells[0]}</td>
+            <td>${cells[1]}</td>
+            <td>${cells[2]}</td>
+        `;
+        tableBody.appendChild(tr);
+    });
+}
+
+const csvFilePath = 'file.csv'; // Make sure the CSV file is in the same directory as your HTML file
+
+
+
+    </script>
+</body>
+</html>

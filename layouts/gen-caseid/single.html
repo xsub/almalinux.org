@@ -1,0 +1,84 @@
+{{ define "main" }}
+<style>
+    @media (max-width: 1200px) {
+        .items__01 {
+            word-wrap: break-word;
+            display: flex;
+            flex-direction: column;
+        }
+        .itemAl_02 {
+            padding-left: 0px !important;
+        }
+        .AL {
+            word-wrap: break-word;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+</style>
+<div class="al-body-container">
+    <section class="al-page-index">
+        <div id="downloads" class="al-index-community-container">
+            <div class="container al-py-lg">
+                <h1 class="pb-2 text-center"></h1>
+                <div class="Errata-container" style="display: flex; flex-direction: column; padding: 40px 20px;">
+                    <h2 class="pb-2 text-center border-bottom" style="border-bottom-color: #14598a!important;">Reach out to AlmaLinux Certification SIG</h2>
+                    <div class="al-article-content pb-3 al-wysiwyg" style="padding: 0px!important;width:60%">
+                        <section>
+                            <h2 class="pb-2 text-center border-bottom" style="border-bottom-color: #14598a!important;">Contact Us</h2>
+                            <div class="contact-form-container">
+                                <p>We prefer real-time communication via the Mattermost channel <a href="https://chat.almalinux.org/almalinux/channels/certification-sig" target="_blank">#Certification SIG</a> on <a href="https://chat.almalinux.org/" target="_blank">chat.almalinux.org</a>. This channel is suitable for most cases and offers quick responses.</p>
+                                <form id="otpForm">
+                                    <div class="mb-3">
+                                        <label for="otp_url">OTP URL:</label><br>
+                                        <input type="text" id="otp_url" name="otp_url" class="form-control" required><br>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="otp">OTP:</label><br>
+                                        <input type="text" id="otp" name="otp" class="form-control" required><br>
+                                    </div>
+                                    <div id="gen-caseid-result">
+                                    <button type="submit" class="btn btn-primary">Submit</button></div>
+                                </form>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<script>
+    $("#otpForm").submit(function(event) {
+        event.preventDefault();
+
+        var otp_url = $("#otp_url").val();
+        var otp = $("#otp").val();
+
+        jQuery.ajax({
+            url: 'http://localhost:8000/auth?otp_url=' + otp_url + '&otp=' + otp,
+            type: 'post',
+            dataType: 'json',
+            contentType: 'application/json',
+            success: function (data) {
+                console.log("SUCCESS:", data);
+
+                // Extracting CertCaseID from the response
+                var caseID = data.CertCaseID.toUpperCase();
+                if (caseID) {
+                    // Create the message with CaseID
+                    var message = "<h3 style='color:white'>Please Write Down Your Unique CaseID: . . . . . . . . . <big style='color:red'> " + caseID + "</big> . . . . . . . . . </h3>";
+
+                    // Injecting the message into the "gen-caseid-result" div
+                    $("#gen-caseid-result").html(message);
+                }
+            },
+            error: function (xhr, status, error) {
+                console.log("ERROR:", error);
+            },
+            data: JSON.stringify({ "otp_url": otp_url, "otp": otp })
+        });
+    });
+</script>
+{{ end }}

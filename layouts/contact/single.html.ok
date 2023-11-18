@@ -1,0 +1,64 @@
+{{ define "main" }}
+<style>
+@media (max-width: 1200px){
+    .items__01 {
+      word-wrap: break-word;
+      display:flex;
+      flex-direction: column;
+    }
+    .itemAl_02 {
+      padding-left: 0px!important;
+    }
+    .AL {
+      word-wrap: break-word;
+      display:flex;
+      flex-direction: column;
+    }
+}
+
+</style>
+<div class="al-body-container">
+  <section class="al-page-index">
+    <div id="downloads" class="al-index-community-container">
+      <div class="container al-py-lg">
+        <h1 class="pb-2 text-center"></h1>
+        <div class="Errata-container" style="display: flex; flex-direction: column; padding: 40px 20px;">
+          <h2 class="pb-2 text-center border-bottom" style="border-bottom-color: #14598a!important;">Reach out to AlmaLinux Certification SIG</h2>
+          <div class="al-article-content pb-3 al-wysiwyg" style="padding: 0px!important;width:60%">
+            <section>
+              
+              <h2 class="pb-2 text-center border-bottom" style="border-bottom-color: #14598a!important;">Contact Us</h2>
+              <div class="contact-form-container">
+                <p>We prefer real-time communication via the Mattermost channel <a href="https://chat.almalinux.org/almalinux/channels/certification-sig" target="_blank">#Certification SIG</a> on <a href="https://chat.almalinux.org/" target="_blank">chat.almalinux.org</a>. This channel is suitable for most cases and offers quick responses.</p>
+                <p>Feel free to use this form for asynchronous communication. It's an excellent option for any action related to AlmaLinux OS Foundation Certification SIG. We'll get back to you as soon as possible.</p>
+                <form id="contactForm" action="/submit-contact" method="post">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Your Name</label>
+                        <input type="text" class="form-control" id="name" name="name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Your Email</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <div class="mb-3">
+                      <label for="certCaseID" class="form-label">Certifcation CaseID (Optional)</label>
+                      <input type="text" class="form-control" id="certCaseID" name="certCaseID">
+                      <small id="certCaseIDHelp" class="form-text text-muted">Provide Certifcation CaseID if applicable (if you already have it).</small>
+                  </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Your Message</label>
+                        <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+              </div>
+    
+            </section>
+          </div>
+        </div>       
+      </div>
+    </div>
+  </section>
+</div>
+
+{{ end }}
