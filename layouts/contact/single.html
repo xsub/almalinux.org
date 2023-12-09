@@ -16,49 +16,68 @@
     }
 }
 
+/* Additional styles for the contact form */
+.contact-form-container {
+    width: 60%;
+    margin: 0 auto;
+}
 </style>
+
+<!-- Email.js script -->
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script>
+    emailjs.init(""); // Replace "your_user_id" with your actual Email.js user ID
+
+    document.addEventListener('DOMContentLoaded', function() {
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            // Collect form data
+            const formData = new FormData(event.target);
+
+            // Send email
+            emailjs.sendForm("default_service", "template_your_template_id", formData)
+                .then(function(response) {
+                    console.log("Email sent successfully:", response);
+                    alert("Thank you! Your message has been sent.");
+                }, function(error) {
+                    console.error("Error sending email:", error);
+                    alert("Oops! Something went wrong. Please try again later.");
+                });
+        });
+    });
+</script>
+
 <div class="al-body-container">
-  <section class="al-page-index">
-    <div id="downloads" class="al-index-community-container">
-      <div class="container al-py-lg">
-        <h1 class="pb-2 text-center"></h1>
-        <div class="Errata-container" style="display: flex; flex-direction: column; padding: 40px 20px;">
-          <h2 class="pb-2 text-center border-bottom" style="border-bottom-color: #14598a!important;">Reach out to AlmaLinux Certification SIG</h2>
-          <div class="al-article-content pb-3 al-wysiwyg" style="padding: 0px!important;width:60%">
-            <section>
+    <section class="al-page-index">
+        <div id="downloads" class="al-index-community-container">
+            <div class="container al-py-lg">
               
-              <h2 class="pb-2 text-center border-bottom" style="border-bottom-color: #14598a!important;">Contact Us</h2>
+
+              <h2 class="pb- text-center border-bottom" style="border-bottom-color: #14598a!important;">Connect with Certification SIG</h2>
               <div class="contact-form-container">
-                <p>We prefer real-time communication via the Mattermost channel <a href="https://chat.almalinux.org/almalinux/channels/certification-sig" target="_blank">#Certification SIG</a> on <a href="https://chat.almalinux.org/" target="_blank">chat.almalinux.org</a>. This channel is suitable for most cases and offers quick responses.</p>
-                <p>Feel free to use this form for asynchronous communication. It's an excellent option for any action related to AlmaLinux OS Foundation Certification SIG. We'll get back to you as soon as possible.</p>
-                <form id="contactForm" action="/submit-contact" method="post">
-                    <div class="mb-3">
-                        <label for="name" class="form-label">Your Name</label>
-                        <input type="text" class="form-control" id="name" name="name" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="email" class="form-label">Your Email</label>
-                        <input type="email" class="form-control" id="email" name="email" required>
-                    </div>
-                    <div class="mb-3">
-                      <label for="certCaseID" class="form-label">Certifcation CaseID (Optional)</label>
-                      <input type="text" class="form-control" id="certCaseID" name="certCaseID">
-                      <small id="certCaseIDHelp" class="form-text text-muted">Provide Certifcation CaseID if applicable (if you already have it).</small>
-                  </div>
-                    <div class="mb-3">
-                        <label for="message" class="form-label">Your Message</label>
-                        <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                </form>
+                
+                  <p>We understand the importance of smooth certification processes and clear communication. Whether you have a question about hardware certification, need guidance on getting started, or just want to chat about the possibilities, our team is ready to assist you.
+                  </p>
+
+            </div>
+
+            
+            <br><br>
+                <h2 class="pb-2 text-center border-bottom" style="border-bottom-color: #14598a!important;">Contact Us</h2>
+                <div class="contact-form-container">
+                    
+
+                    <p>We prefer real-time communication via the Mattermost channel <a href="https://chat.almalinux.org/almalinux/channels/certification-sig" target="_blank"> <code>#certification</code></a> on <a href="https://chat.almalinux.org/" target="_blank">chat.almalinux.org</a>. This channel is suitable for most cases and offers quick responses.</p>
+                    <p>Feel free to use this form for asynchronous communication. It's an excellent option for any action related to AlmaLinux OS Foundation Certification SIG. We'll get back to you as soon as possible.</p>
+
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeOuFLyKPqHWfoIIbSJQHAHrVSgnor6Pq3imE_8GYsqoCg3yw/viewform?embedded=true" width="780" height="1200" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
               </div>
-    
-            </section>
-          </div>
-        </div>       
-      </div>
-    </div>
-  </section>
+
+            </div>
+        </div>
+    </section>
 </div>
 
 {{ end }}
