@@ -1,6 +1,6 @@
 ---
 title: "Certified"
-type: certified 
+layout: "certified/single"
 ---
 
-certified content
+

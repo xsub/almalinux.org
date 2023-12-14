@@ -11,26 +11,33 @@
         border: 0px solid transparent;
     }
 </style>
-    <!-- This script adds conditional suffix to AlmaLinux logo "| Certification SIG"-->
+    <!-- Add conditional suffix to AlmaLinux logo ("| Certification SIG") and change the Nav bar -->
 <script>
   document.addEventListener("DOMContentLoaded", function() {
     // Define the CertSig paths - where the div should be populated
-    const targetPaths = ["/certified/", "/certify/", "/get-cert-suite/", "/join-cert-sig/"];
+    const targetPaths = ["", "/certified", "/certify", "/get-cert-suite", "/join-cert-sig", "/contact"];
+    // Prepend the paths for comparison with sub-directory name and add trailing slash
+    targetPaths.forEach((path, index, arr) => {
+        arr[index] = "/certification" + path + "/";
+    });
 
     // Get the current path
     const currentPath = window.location.pathname;
 
     // Check if the current path matches any of the target paths
     if (targetPaths.includes(currentPath)) {
-        // Select the div specific to logo suffix placeholder
+        // Change the AlmaLinux logo to include the Certification SIG suffix
         const divToPopulate = document.getElementById("CertSig_conditional_suffix");
-
-        // Populate the div as needed
         divToPopulate.innerHTML = "<h4>| Certification SIG</h4>";
 
+        // Change the message in the MOTD
         const divToPopulate2 = document.getElementById("al-motd");
-
         divToPopulate2.innerHTML = '<div class="container pl-3"><i class="bi bi-info-circle"></i><div class="text">{{ "Create an AlmaLinux account and join The HW Certification SIG to review the Program."  }} <a href="{{ "/join-cert-sig" }}">{{ i18n "Read more" }}</a></div></div>';
+
+        // Change the Nav bar to include the Certification Suite link only
+        const divToPopulate3 = document.getElementById("hidable");
+        divToPopulate3.innerHTML='<a class="nav-link btn btn al-download-button" href="{{ "/certification/get-cert-suite" | absLangURL }}"><i class="bi bi-download pe-1 d-none d-xl-inline"></i> Certification Suite</a>';
+
     }
 });
 </script>
@@ -45,8 +52,73 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="main-navbar">
+            <div id="hidable">
             <ul class="navbar-nav  mb-2 mb-lg-0">
-  
+
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ "/blog" | relLangURL }}" style="margin-top:5px">
+                        {{ i18n "Blog" }}
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://wiki.almalinux.org" style="margin-top:5px">
+                        {{ i18n "Wiki" }}
+                    </a>
+                </li>
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle " id="navbarDropResources" data-toggle="dropdown" aria-expanded="false" style="margin-top:5px">
+                        {{ i18n "Resources" }}
+                    </a>
+
+
+                    <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-lg-start" aria-labelledby="navbarDropResources">
+                        <li>
+                            <a class="dropdown-item" href="https://wiki.almalinux.org/documentation/migration-guide" style="color:aliceblue">
+                                {{ i18n "Migrate from CentOS 8" }}
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="https://bugs.almalinux.org"style="color:aliceblue">
+                                {{ i18n "Report Bugs" }}
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="{{ "/members" | relLangURL }}" style="color:aliceblue">
+                                {{ i18n "Membership" }}
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="{{ "/elevate" | relLangURL }}" style="color:aliceblue">
+                                ELevate
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="https://lists.almalinux.org/" style="color:aliceblue">
+                                {{ i18n "Mailing Lists" }}
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="https://openqa.almalinux.org/" style="color:aliceblue">
+                                {{ i18n "openQA" }}
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="https://build.almalinux.org/" style="color:aliceblue">
+                                {{ i18n "Build System" }}
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="{{ "/security" | relLangURL }}" style="color:aliceblue">
+                                {{ i18n "Security" }}
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://shop.almalinux.org/?utm_source=almalinuxorg&amp;utm_medium=web&amp;utm_campaign=almalinuxorg_navbar" style="margin-top:5px">
+                        {{ i18n "Shop" }}
+                    </a>
+                </li>
 
                 <li class="nav-item dropdown ps-md-2">
                     <button class="btn nav-link dropdown-toggle al-language-switch" id="navbarDropLanguages" data-toggle="dropdown" aria-expanded="false" style="margin-top:3px">
@@ -68,15 +140,23 @@
                     </ul>
                 </li>
                 <li class="nav-item ps-md-2">
-                    <a class="nav-link btn btn al-download-button" href="{{ "/get-cert-suite" | absLangURL }}">
+                    <a class="nav-link btn btn al-download-button" href="{{ "/get-almalinux" | absLangURL }}">
                         <i class="bi bi-download pe-1 d-none d-xl-inline"></i>
-                        Certification Suite
+                        {{ i18n "Download" }}
                     </a>
                 </li>
             </ul>
+            </div>
         </div>
     </div>
 
+    <script>
+        // change the link on AlmaLinux logo to point to certification home page
+          var anchor = document.querySelector('a.navbar-brand');
+    if (anchor) {
+        anchor.href = '/certification/';
+    }
+    </script>
 
 </nav>
 

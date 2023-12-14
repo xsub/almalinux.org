@@ -1,6 +1,4 @@
 ---
 title: "Certify"
-type: certify 
+layout: "certify/single"
 ---
-
-certify content

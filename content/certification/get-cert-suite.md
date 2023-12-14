@@ -1,6 +1,4 @@
 ---
 title: "Get Certification Suite"
-type: get-cert-suite
+layout: "get-cert-suite/single"
 ---
-
-get-cert-suite content
