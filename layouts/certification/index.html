@@ -1,0 +1,123 @@
+
+{{ define "main" }}
+<style>
+@media (max-width: 800px){
+    .display-5 {
+        font-size: calc(1.425rem + 2.1vw) !important;
+        line-height: 1.2;
+    }
+    .row-cols-1 > * {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+    .d-grid {
+        display: grid !important;
+    }
+    .row-cols-2 > * {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    .container-security {
+        flex: 0 0 auto;
+        display: flex;
+        flex-direction: column!important;
+    }
+    .container-measure {
+        width: 100%!important;
+    }
+}
+@media (min-width: 800px) {
+    .display-5 {
+        font-size: 3rem;
+    }
+}
+.lh-1 {
+    line-height: 1 !important;
+}
+.px-4 {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+}
+.al-page-index .al-hero-cta-primary {
+    margin:10px;
+}
+.row > * {
+    margin-top: 20px;
+}
+.al-page-index .al-index-backed-by .al-backed-by-list {
+    justify-content: center;
+}
+@media (min-width: 768px) {
+    .row-cols-md-6 > * {
+        flex: 0 0 auto;
+        width: 16.66667%;
+    }
+}
+.h2, h2 {
+    font-size: calc(1.325rem + .9vw);
+}
+</style>
+
+<div class="al-body-container">
+
+    <section class="al-page-index">
+        <!-- HERO -->
+        <div class="al-index-container" style="background: #0e3b5c!important;">
+          <div class="container px-0 al-py-lg">  
+            <div class="row flex-lg-row-reverse align-items-center py-2 py-md-5">
+                <div class="d-none d-lg-block col-10 col-sm-8 col-lg-6">
+                        <img src="/images/hw-cert-datacenter-gfx.png" class="d-block mx-lg-auto img-fluid" alt="Hero image" width="624" height="430">
+
+                </div>
+                <div class="col-lg-6">
+                    <h6>AlmaLinux OS Foundation's</h6>
+                    <h1 class="display-5 fw-bold lh-1 mb-5 mb-md-3">
+                        {{ "Hardware Certification" }}
+                    </h1>
+                    <h2> &nbsp – Compatibility you can trust.</h2>
+                    <h2 class="pb-2 text-center border-top"></h2>
+                    <p class="lead mb-3 mb-md-3">
+                        {{ "The AlmaLinux Hardware Certification Program ensures hardware compatibility and promotes OS adoption through community-led, flexible pathways. Designed for long-term reliability and performance." }}
+                    </p>
+                    <h5 class="pb-1 text-center border-bottom"></h5>
+                    <div class="d-grid gap- d-md-flex justify-content-md-start pt-1 pl-0 pr-0">
+                        <a href="{{ "/certified" | relLangURL }}" class="btn btn-lg px-4 al-hero-cta-primary">
+                            <img src="/images/hw-cert-hw-certificate.svg"> 
+                            {{  "Certified" }}
+                        </a>
+                        <a href="/certify" class="btn btn-lg px-4 al-hero-cta-secondary">
+                            <img src="/images/hw-cert-icon-certify.svg">
+                            {{  "Certify" }}
+                        </a>
+                        <a href="/contact" class="btn btn-lg px-4 al-hero-cta-tertiary">
+                            
+                            <i class="bi bi-people pe-1"></i>
+                            {{  "Contact" }}
+                        </a>
+                        <a href="/gen-caseid" class="btn btn-lg px-4 al-hero-cta-quaternary">
+                            <img src="/images/hw-cert-icon-login.svg">
+                            {{  "Login" }}
+                        </a>
+                     
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+
+     <!-- TSA-NET Partnership Logo -->
+     <div class="text-center mb-0 mt-0">
+        <h4 class="mt-4">In Partnership with:</h4> <!-- Optional tagline -->
+        <img src="https://tsanet.org/wp-content/uploads/2018/01/TSANet__logo_CMYK_on-white_horizontal.png" alt="TSA-NET Partnership Logo" width="300"> <!-- Adjust width as necessary -->
+        <hr>
+    </div>
+
+
+
+
+</section>
+
+</div>
+
+{{ end }}
+

@@ -6,14 +6,11 @@
 @import "./elevate";
 @import "./members";
 @import "./contribute";
-@import "./join-cert-sig";
-@import "./get-cert-suite";
-@import "./certification/hardware/";
-@import "./certify.md";
-@import "./certified.md";
-@import "./contact.md";
-@import "./gen-caseid.md"
-
+@import "./certification/join-cert-sig";
+@import "./certification/get-cert-suite";
+@import "./certification/certify.md";
+@import "./certification/certified.md";
+@import "./certification/contact.md";
 
 
 body, html {

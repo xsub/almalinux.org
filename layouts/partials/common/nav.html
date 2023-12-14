@@ -27,12 +27,14 @@
 
         // Populate the div as needed
         divToPopulate.innerHTML = "<h4>| Certification SIG</h4>";
+
+        const divToPopulate2 = document.getElementById("al-motd");
+
+        divToPopulate2.innerHTML = '<div class="container pl-3"><i class="bi bi-info-circle"></i><div class="text">{{ "Create an AlmaLinux account and join The HW Certification SIG to review the Program."  }} <a href="{{ "/join-cert-sig" }}">{{ i18n "Read more" }}</a></div></div>';
     }
 });
-
-
-
 </script>
+
 <nav id="al-primary-navbar" class="al-primary-navbar navbar p-0 sticky-top navbar-expand-lg navbar-dark flex-column with-motd">
 
     <div class="container  my-3">
@@ -44,63 +46,8 @@
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="main-navbar">
             <ul class="navbar-nav  mb-2 mb-lg-0">
-                    <li class="nav-item dropdown ">
-                    <a class="nav-link dropdown-toggle " id="navbarDropResources" data-toggle="dropdown" aria-expanded="false" style="margin-top:5px">
-                        {{ "Assets" }}
-                    </a>
+  
 
-                    <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-lg-start" aria-labelledby="navbarDropResources">
-                        <li>
-                            <a class="dropdown-item" href="https://wiki.almalinux.org/documentation/migration-guide" style="color:aliceblue">
-                                {{ i18n "Migrate from CentOS 8" }}
-                            </a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href="https://bugs.almalinux.org"style="color:aliceblue">
-                                {{ i18n "Report Bugs" }}
-                            </a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href="{{ "/members" | relLangURL }}" style="color:aliceblue">
-                                {{ i18n "Membership" }}
-                            </a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href="{{ "/elevate" | relLangURL }}" style="color:aliceblue">
-                                ELevate
-                            </a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href="https://lists.almalinux.org/" style="color:aliceblue">
-                                {{ i18n "Mailing Lists" }}
-                            </a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href="https://openqa.almalinux.org/" style="color:aliceblue">
-                                {{ i18n "openQA" }}
-                            </a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href="https://build.almalinux.org/" style="color:aliceblue">
-                                {{ i18n "Build System" }}
-                            </a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href="{{ "/security" | relLangURL }}" style="color:aliceblue">
-                                {{ i18n "Security" }}
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-
-        
-                <li class="nav-item">
-                    <a class="nav-link" href="https://wiki.almalinux.org/certification" style="margin-top:5px">
-                        Certification Wiki
-                    </a>
-                </li>
-
-         
                 <li class="nav-item dropdown ps-md-2">
                     <button class="btn nav-link dropdown-toggle al-language-switch" id="navbarDropLanguages" data-toggle="dropdown" aria-expanded="false" style="margin-top:3px">
                         <img src="/images/lang.svg" alt="Language" width="24" height="24">
@@ -136,6 +83,7 @@
 <div id="al-motd" dir="ltr" data-nosnippet="" style="display: block; letter-spacing: 0px;">
     <div class="container pl-3">
         <i class="bi bi-info-circle"></i>
-        <div class="text">{{ "Create an AlmaLinux account and join The HW Certification SIG to review the Program."  }} <a href="{{ "/join-cert-sig" }}">{{ i18n "Read more" }}</a></div>
+        <div class="text">{{ i18n "Join us for the very first AlmaLinux Day! December 9th in Tokyo, Japan." }} <a href="{{ "/aldt-2023/" | relLangURL }}">{{ i18n "Save your spot now!" }}</a></div>
     </div>
 </div>
+
