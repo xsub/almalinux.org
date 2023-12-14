@@ -1,4 +1,4 @@
 ---
 title: "p"
-type: p 
+type: p
 ---
