@@ -1,0 +1,98 @@
+{{ define "main" }}
+<style>
+    @media (max-width: 1200px) {
+        .items__01 {
+            word-wrap: break-word;
+            display: flex;
+            flex-direction: column;
+        }
+        .itemAl_02 {
+            padding-left: 0px !important;
+        }
+        .AL {
+            word-wrap: break-word;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    /* Additional styles for the contact form */
+    .paragraph-container-project-board {
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 10px;
+    }
+
+    p {
+        line-height: 2.0; /* or your preferred value */
+        size: 16px;
+    }
+
+    ul {
+        line-height: 2.0;
+    }
+
+    h2 {
+        border-bottom-color: #14598a!important; 
+        font-weight: 500; 
+        font-size: 35px;
+    }
+</style>
+
+<div class="al-body-container">
+    <section class="al-page-index">
+        <div class="al-index-community-container">
+            <div class="container al-py-lg">
+                <h1 class="pb-0 text-center border-bottom">Certification SIG Project Board</h1>
+                
+                <!-- How it Works -->
+                <div class="paragraph-container-project-board">
+                    <h2>How it Works</h2>
+                    <p>To foster collaborative decision-making and enhance transparency, we have established  <a href="https://github.com/orgs/AlmaLinux/projects/6" target="_blank">a dedicated GitHub board</a>. This board provides an asynchronous method of communication, allowing for more flexible timelines, especially for international participants. Additionally, the GitHub platform serves as a mechanism for organizations to collaborate with the SIG on making certification requests from ISVs and IHVs.</p>
+                </div>
+                <center><img src="/images/hw-cert-project-board.png" alt="Project Board" width="80%" style="margin-bottom: 20px;"></center>
+                <!-- Details: Templates-->
+                <div class="paragraph-container-project-board">
+                    <h2>Details: Templates</h2>
+                    <p>Our GitHub board features issue templates tailored for various Certification Activities, including:
+                        <ul>
+                            <li> running the Hardware Certification Suite </li>
+                            <li> sending hardware to ALOSF labs.</li>
+
+                        </ul>  
+                    </p>
+                    <!-- Include Project Board Picture Here -->
+                </div>
+                
+                <!-- In-Process Discussions -->
+                <div class="paragraph-container-project-board">
+                    <h2>In-Process Discussions</h2>
+                <p>
+                    <ul>
+                    <li>The GitHub Project Board facilitates issue-based dialogue between involved parties. Access is secured and requires authorization from the SIG lead.</li>
+                    <li> GitHub Discussions for the Certification SIG Project serve as an open forum and a platform for FAQs (requires only a GitHub account).</li>
+                    </ul>
+                </p>
+                </div>
+                
+                <!-- How to Join and Act -->
+                <div class="paragraph-container-project-board">
+                    <h2>How to Join and Act</h2>
+                    <ul style="text-align: left;">
+                        <li>Create a GitHub account.</li>
+                        <li>Request access to the project board:</li>
+                            <li style="margin-left:2em; padding-bottom: 0;">ask on <a href="https://github.com/AlmaLinux/Hardware-Certification-Suite/discussions">GitHub Discussions</a></li>
+                            &nbsp; &nbsp; OR
+                            <li style="margin-left:2em; padding-bottom: 0;"> use the Contact form available <a href="/certification/contact/" target="_blank">here</a></li>
+                            &nbsp; &nbsp; OR
+                            <li style="margin-left:2em; padding-bottom: 0;"> via our <a href="https://chat.almalinux.org/almalinux/channels/certification" target="_blank">Mattermost channel</a></li>
+                        <li>Join the board and create new issue selecting from available templates.</li>
+                    </ul>
+                </div>
+            
+          
+        </div>
+        </div>
+    </section>
+</div>
+{{ end }}

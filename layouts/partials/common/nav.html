@@ -15,7 +15,7 @@
 <script>
   document.addEventListener("DOMContentLoaded", function() {
     // Define the CertSig paths - where the div should be populated
-    const targetPaths = ["", "/certified", "/certify", "/get-cert-suite", "/join-cert-sig", "/contact"];
+    const targetPaths = ["", "/certified", "/certify", "/get-cert-suite", "/join-cert-sig", "/contact", "/sig-members", "/project-board" ];
     // Prepend the paths for comparison with sub-directory name and add trailing slash
     targetPaths.forEach((path, index, arr) => {
         arr[index] = "/certification" + path + "/";
@@ -32,7 +32,7 @@
 
         // Change the message in the MOTD
         const divToPopulate2 = document.getElementById("al-motd");
-        divToPopulate2.innerHTML = '<div class="container pl-3"><i class="bi bi-info-circle"></i><div class="text">{{ "Create an AlmaLinux account and join The HW Certification SIG to review the Program."  }} <a href="{{ "/join-cert-sig" }}">{{ i18n "Read more" }}</a></div></div>';
+        divToPopulate2.innerHTML = '<div class="container pl-3"><i class="bi bi-info-circle"></i><div class="text">{{ "Create an AlmaLinux account and join The HW Certification SIG to review the Program."  }} <a href="{{ "/certification/join-cert-sig" }}">{{ i18n "Read more" }}</a></div></div>';
 
         // Change the Nav bar to include the Certification Suite link only
         const divToPopulate3 = document.getElementById("hidable");

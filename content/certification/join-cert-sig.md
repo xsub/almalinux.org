@@ -1,6 +1,4 @@
 ---
 title: "Join Cert Sig"
-type: join-cert-sig
+layout: "join-cert-sig/single"
 ---
-
-join-cert-sig content
