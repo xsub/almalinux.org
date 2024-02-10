@@ -1,0 +1,302 @@
+{{ define "main" }}
+<style>
+@media (max-width: 800px){
+    .display-5 {
+        font-size: calc(1.425rem + 2.1vw) !important;
+        line-height: 1.2;
+    }
+    .row-cols-1 > * {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+    .d-grid {
+        display: grid !important;
+    }
+    .row-cols-2 > * {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    .container-security {
+        flex: 0 0 auto;
+        display: flex;
+        flex-direction: column!important;
+    }
+    .container-measure {
+        width: 100%!important;
+    }
+}
+@media (min-width: 800px) {
+    .display-5 {
+        font-size: 3rem;
+    }
+}
+.lh-1 {
+    line-height: 1 !important;
+}
+.px-4 {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+}
+.al-page-index .al-hero-cta-primary {
+    margin:10px;
+}
+.row > * {
+    margin-top: 20px;
+}
+.al-page-index .al-index-backed-by .al-backed-by-list {
+    justify-content: center;
+}
+@media (min-width: 768px) {
+    .row-cols-md-6 > * {
+        flex: 0 0 auto;
+        width: 16.66667%;
+    }
+}
+.h2, h2 {
+    font-size: calc(1.325rem + .9vw);
+}
+
+
+@media (max-width: 1399px){
+    .items__01 {
+      word-wrap: break-word;
+      display:flex;
+      flex-direction: column;
+    }
+    .itemAl_02 {
+      word-wrap: break-word;
+      display:flex;
+      flex-direction: column;
+      padding-left: 0px!important;
+      margin-right: 0px!important;
+      margin-left: 0px!important;
+    }
+    .AL {
+      word-wrap: break-word;
+      display:flex;
+      flex-direction: column;
+    }
+    .AL > .itemAl_02 {
+      width: 588px!important;
+    }
+    a {
+      margin-right: 0px!important;
+    }
+    .container-AL {
+      word-wrap: break-word;
+      display:flex;
+      flex-direction: column;
+    }
+    .container-ALOS8 {
+      padding-left: 0px!important;
+    }
+    .Link-Downloads-Al {
+      justify-content: space-between;
+      width: 588px;
+    }
+    .tab-button {
+      height: 83.19px;
+    }
+}
+
+@media(max-width: 991px){
+    .anchor {
+      top: -114px!important;
+    }
+}
+
+@media (max-width: 767px){
+    .Link-Downloads-Al {
+      width: 461px!important;
+    }
+    .AL > .itemAl_01  {
+      width: 461px!important;
+    }
+    .AL > .itemAl_02 {
+      width: 461px!important;
+    }
+    .put-text_copy {
+      width: 410px!important;
+    }
+    .AL {
+      width: 470px!important;
+    }
+    .off-plat-imag {
+      width: auto!important;
+    }
+    .container-AlmaLinuxOS9 {
+      width: auto!important;
+    }
+    .container-AlmaLinuxOS8 {
+      width: auto!important;
+    }
+    .itemsTr {
+      height: 72px;
+    }
+    .itemsOff {
+      height: 36px;
+    }
+}
+@media (max-width: 576px){
+    .Link-Downloads-Al {
+      width: auto!important;
+    }
+    .AL > .itemAl_01  {
+      width: auto!important;
+    }
+    .AL > .itemAl_02 {
+      width: auto!important;
+    }
+    .put-text_copy {
+      width: auto!important;
+    }
+    .AL {
+      width: auto!important;
+    }
+}
+@media (max-width: 494px){
+    .accordion-item > .accordion-header > .tab-button{
+      font-size: 16px;
+    }
+}
+@media (max-width: 456px){
+    .main-itemsOff {
+      height: 36px;
+    }
+}
+@media (max-width: 423px){
+    .accordion-item > .accordion-header > .tab-button{
+      font-size: 14px;
+    }
+    .main-itemsTr {
+      height: 36px;
+    }
+}
+@media (max-width: 384px){
+    .accordion-item > .accordion-header > .tab-button{
+      font-size: 12px;
+    }
+}
+@media (max-width: 373px){
+    .itemsTr {
+      height: 108px;
+    }
+}
+</style>
+
+<div class="al-body-container">
+
+    <section class="al-page-index">
+        <!-- HERO -->
+        <div class="al-index-container" style="background: #0e3b5c!important;">
+          <div class="container px-0 al-py-lg">  
+            <div class="row flex-lg-row-reverse align-items-center py-2 py-md-5">
+                <div class="d-none d-lg-block col-10 col-sm-8 col-lg-6">
+                        <img src="/images/hw-cert-datacenter-gfx.png" class="d-block mx-lg-auto img-fluid" alt="Hero image" width="624" height="430">
+
+                </div>
+                <div class="col-lg-6">
+                    <h6>AlmaLinux OS Foundation's</h6>
+                    <h1 class="display-5 fw-bold lh-1 mb-5 mb-md-3">
+                        {{ "Hardware Certification" }}
+                    </h1>
+                    <h2> &nbsp – Compatibility you can trust.</h2>
+                    <h2 class="pb-2 text-center border-top"></h2>
+                    <p class="lead mb-3 mb-md-3">
+                        {{ "The AlmaLinux Hardware Certification Program ensures hardware compatibility and promotes OS adoption through community-led, flexible pathways. Designed for long-term reliability and performance." }}
+                    </p>
+                    <h5 class="pb-1 text-center border-bottom"></h5>
+                    <div class="d-grid gap- d-md-flex justify-content-md-start pt-0 pl-0 pr-0">
+                        <a href="{{ "/certification/certified" | relLangURL }}" class="btn btn-lg px-3 al-hero-cta-primary">
+                            <img src="/images/hw-cert-hw-certificate.svg"> 
+                            <hr style="margin: 4px;">{{  "Certified List" }}
+                        </a>
+                        <a href="/certification/certify" class="btn btn-lg px-3 al-hero-cta-secondary">
+                            <img src="/images/hw-cert-icon-certify.svg">
+                            <hr style="margin: 4px;">{{ "Certify HW" }}
+                        </a>
+                        <a href="/certification/contact" class="btn btn-lg px-3 al-hero-cta-tertiary">
+                            
+                            <i class="bi bi-people pe-1"></i>
+                            <hr style="margin: 4px;">{{  "Contact Us" }}
+                        </a>
+                        <a href="/certification/project-board" class="btn btn-lg px-3 al-hero-cta-quaternary">
+                            <img src="/images/hw-cert-icon-login.svg">
+                            <hr style="margin: 4px;">{{ "Task Board" }}
+                        </a>
+                     
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+
+      <!-- Target groups -->
+      <div class="text-center mb-0 mt-0">
+        <h4 class="mt-4">Ecosystem Benefits: From Development to Deployment</h4>
+        <img src="/images/hw-cert-target-groups.svg" alt="" width="1000">
+    </div>
+
+<!-- -->
+<div class="accordion accordion-flush" id="accordionISOs">
+    <div class="accordion-item mb-3" style="display:flex; margin-bottom: 10px!important;">
+        <h2 class="accordion-header" id="flush-heading-1" style="margin: 0;">
+            <button class="tab-button" type="button" data-toggle="collapse" data-target="#flush-collapse-1" aria-expanded="true" aria-controls="flush-collapse-1" style="background: #114a73;">
+                <img src="/images/hw-cert-vendors.svg" width="200">
+            </button>
+        </h2>
+        <h2 class="accordion-header" id="flush-heading-2" style="width: 25%; margin: 0;">
+            <button class="tab-button collapsed" type="button" data-toggle="collapse" data-target="#flush-collapse-2" aria-expanded="true" aria-controls="flush-collapse-2" style="background: #114a73;">
+              <b>Contributor</b>
+            </button>
+        </h2>
+        <h2 class="accordion-header" id="flush-heading-3" style="width: 25%; margin: 0;">
+            <button class="tab-button collapsed" type="button" data-toggle="collapse" data-target="#flush-collapse-3" aria-expanded="true" aria-controls="flush-collapse-3" style="background: #114a73;">
+              <b>End User</b>
+            </button>
+        </h2>
+    </div>
+
+    <div id="flush-collapse-1" class="accordion-collapse collapse show" aria-labelledby="flush-heading-1" data-parent="#accordionISOs">
+      <div class="items__01" style="display: flex; flex-direction: column;">
+        <div class="accordion-body" style="margin-top: 0px; padding: 15px 0 0 0;"></div> 
+            <img src="/images/hw-cert-vendors.svg" alt="">
+        
+      </div>
+    </div>
+              
+    <div id="flush-collapse-2" class="accordion-collapse collapse" aria-labelledby="flush-heading-2" data-parent="#accordionISOs">
+      <div class="items__01" style="display: flex; flex-direction: column;">
+        <div class="accordion-body" style="margin-top: 0px; padding: 15px 0 0 0;"></div> 
+        <img src="/images/hw-cert-contributors.svg" alt="">
+      </div>
+    </div>
+              
+    <div id="flush-collapse-3" class="accordion-collapse collapse" aria-labelledby="flush-heading-3" data-parent="#accordionISOs">
+      <div class="items__01" style="display: flex; flex-direction: column;">
+        <div class="accordion-body" style="margin-top: 0px; padding: 15px 0 0 0;">
+            <img src="/images/hw-cert-hw-buyers.svg" alt="">
+        </div> 
+      </div>
+    </div>
+
+    </div>
+
+<!-- -->
+
+     <!-- TSA-NET Partnership Logo -->
+     <div class="text-center mb-0 mt-0">
+        <h4 class="mt-4">In Partnership with:</h4> <!-- Optional tagline -->
+        <a href="https://tsanet.org" target="_blank"><img src="https://tsanet.org/wp-content/uploads/2018/01/TSANet__logo_CMYK_on-white_horizontal.png" alt="TSA-NET Partnership Logo" width="300"></a>
+        <hr>
+    </div>
+
+
+
+
+</section>
+
+</div>
+
+{{ end }}
+
